@@ -14,26 +14,15 @@ body{
 
 .topnav-right a{
     position: relative;
-    font-weight: 500;
-    text-decoration: none;
     transition: .5s;
     font-weight: bold;
-    float: left;
-    margin-right: 50px;
+    float: right;
     color: #5a815d; 
-    text-align: center;
     padding: 14px 16px;
     font-size: 25px;
     top: 5px;
-}
-.topnav-right a {
-    float: left;
-    margin-right: 50px;
-    color: #5a815d; 
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    margin-right: 50px;
 }
    
 .topnav-right a:hover{
@@ -85,7 +74,14 @@ button{
     cursor:pointer;
     transition:800ms ease all;
     outline:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.8%;
+    margin-bottom: -230px;
+    margin-right: 40px;
   }
+  
   button:hover{
     background:#fff;
     color:#3A4D39;
@@ -127,10 +123,10 @@ button{
     cursor: pointer;
     display: inline-block;
     font-family: Neucha, sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 23px;
     outline: none;
-    padding: .75rem;
+    padding: 30px 60px;
     text-decoration: none;
     transition: all 235ms ease-in-out;
     border-bottom-left-radius: 15px 255px;
@@ -140,7 +136,8 @@ button{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
+
+}
   
   .button-56:hover {
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
@@ -150,20 +147,74 @@ button{
   .button-56:focus {
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
   }
-  .button1{
+  #button1{
         display: flex;
         justify-content: center;
         align-items: center;
         top: 0.8%;
-        margin-bottom: 20px;
-        margin-right: -75px;
+        float: right;
+        margin-top: 500px;
+        margin-right: -170px;
   }
-  .button2{
+  #button2{
     display: flex;
         justify-content: center;
         align-items: center;
         top: 0.8%;
-        margin-bottom: -230px;
         margin-right: 40px;
+        float: right;
+        margin-top: 800px;
+        margin-right: 20px;
   }
 
+.menu-icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+h1{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    color: #3A4D39;
+}
+.bg-image-header {
+    background-image:url('../images/AI-Tree-Health-Monitor-pexels-1536x1024.png');
+    width: 100%;
+    height: 1024px;  
+    background-size: cover;   
+}
+
+.page{
+  width: 100%;
+  display: flex;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.8%;
+  margin-right: 40px;
+  float: right;
+  margin-top: 860px;
+  margin-right: -84px;
+  font-size: 35px;
+  color: #3A4D39;
+}
+
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.8%;
+  margin-right: 40px;
+  float: right;
+  margin-top: 50px;
+  margin-right: -500px;
+  font-size: 35px;
+  color: #3A4D39;
+}
