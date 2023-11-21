@@ -16,6 +16,16 @@ body{
   background-color: #F5EFE5;
 }
 
+.gv-box {
+  padding: 20px 0;
+}
+
+.gv-box-80 {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+}
+
 .topnav-right a{
   position: relative;
   transition: .5s;
@@ -34,13 +44,29 @@ body{
   padding: 10px -5px;
   text-align: center;
   width: 100%;
-  position: fixed;
   top: 0px;
+  z-index: 1000;
+}
+
+.sticky-bar {
+  position: fixed;
+  transition: all 2s;
+}
+
+.sticky-bar-shadow {
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 1px 10px 0 #649868;
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 2px );
-  z-index: 1000;
+}
+
+.fadeable {
+  opacity: 1;
+  transition: opacity 2s; 
+}
+
+.fade {
+  opacity: 0 !important;
 }
 
 .topnav-right a:hover{
@@ -74,7 +100,7 @@ body{
 }
 
 h1{
-  position: absolute;
+  /* position: absolute; */
   left: 100px;
   top: 10px;
   color: #3A4D39;
@@ -206,7 +232,7 @@ button:hover:before,button:hover:after{
 .bg-image-header {
   background-image:url('../images/background_pic.png');
   width: 100%;
-  height: 1024px;  
+  /* height: 1024px;   */
   background-size: cover;   
 }
 
@@ -306,7 +332,7 @@ h3{
   background: #507053;
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
-  position: absolute;
+  /* position: absolute; */
   right: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -316,7 +342,7 @@ h3{
 }
 
 .map-heading{
-  margin-top: 1200px;
+  /* margin-top: 1200px; */
   left:20%;
   right: 20%;
   text-align: center;
