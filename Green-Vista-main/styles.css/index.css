@@ -278,8 +278,7 @@ h3{
 
 }
 .text-box{
-  justify-content: center;
-  align-items: center;
+  
   position: absolute;
   background: rgba(163, 153, 134, 0.219);
 
@@ -307,12 +306,14 @@ h3{
   margin-top: 50px;
   color: #324734; 
   font-weight: bold;
+  text-align: center;
 }
 
 .text{
   color: #324734; 
   margin-top: 10px;
   font-size: 38px;
+  text-align: center;
 }
 
 .main-heading{
@@ -328,11 +329,24 @@ h3{
 .line {
   position: relative;
   height: 2px;
-  width: 40%;
-  background: #507053;
+  width: 50%;
+  
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
-  /* position: absolute; */
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.line1 {
+  position: sticky;
+  height: 2px;
+  width: 30%;
+  
+  background: linear-gradient(to left, #507053 0%, #94CA99 100%);
+  -webkit-text-fill-color: transparent;
   right: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -364,9 +378,9 @@ h3{
  
 .card-item {
   display: flex;
-  width: 100%;
+ 
   transition: box-shadow .3s;
-  width: 350px;
+  width: 450px;
   height: auto;
 }
  
@@ -400,21 +414,7 @@ h3{
 .card-item-content p {
   flex: 1 0 auto;
 }
-.line1{
-  position: relative;
-  height: 2px;
-  width: 40%;
-  background: #507053;
-  background: linear-gradient(to left, #507053 0%, #94CA99 100%);
-  -webkit-text-fill-color: transparent;
-  /* position: absolute; */
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 20%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+
 .diagrams-heading{
   /* margin-top: 1200px; */
   left:20%;
