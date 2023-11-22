@@ -356,3 +356,69 @@ h3{
   top: 180px;
   color: #9fb580;
 }
+.card-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+ 
+.card-item {
+  display: flex;
+  width: 100%;
+  transition: box-shadow .3s;
+  width: 350px;
+  height: auto;
+}
+ 
+.card-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+ 
+.card-item-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem;
+  box-shadow: 1px 1px 1px #000000;
+  border-radius: 8px;
+}
+ 
+.card-item-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+ 
+.card-item-content :not(img) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.card-item-content :last-child {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.card-item-content p {
+  flex: 1 0 auto;
+}
+.line1{
+  position: relative;
+  height: 2px;
+  width: 40%;
+  background: #507053;
+  background: linear-gradient(to left, #507053 0%, #94CA99 100%);
+  -webkit-text-fill-color: transparent;
+  /* position: absolute; */
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.diagrams-heading{
+  /* margin-top: 1200px; */
+  left:20%;
+  right: 20%;
+  text-align: center;
+  font-size: 60px;
+}
