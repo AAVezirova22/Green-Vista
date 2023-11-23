@@ -422,3 +422,92 @@ h3{
   text-align: center;
   font-size: 60px;
 }
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: rgb(221, 221, 186);
+  padding: 70px 0;
+  width: 1470px;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: rgba(79, 111, 82, 1);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(79, 111, 82, 1);
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: rgb(50, 66, 52);
+  padding-left: 8px;
+}
+
+.pass{
+  border-radius: 10px;
+}
+
+.email{
+  border-radius: 10px;
+  width: 185px;
+}
+
+.email-text{
+  color: rgba(79, 111, 82, 1);
+  font-size: 16px;
+}
+
+.pass-text{
+  color: rgba(79, 111, 82, 1);
+  font-size: 16px;
+}
+
+.footer-button{
+  border-radius: 10px;
+  width: 80px;
+  cursor: pointer;
+}
