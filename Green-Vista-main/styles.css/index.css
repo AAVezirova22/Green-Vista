@@ -603,3 +603,67 @@ ul{
   width: 80px;
   cursor: pointer;
 }
+
+.input_wrapper{
+  position: relative;
+  padding: 15px 0 0;
+}
+
+.input_field{
+  border: 1.5px solid rgba(79, 111, 82, 1);
+  font-size: 1rem;
+  border-radius: 8px;
+  color: #F8F8FF;
+  padding: 8px;
+  padding-right: 32px;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.input_field::placeholder{
+  color: rgba(79, 111, 82, 1);
+}
+
+.input_field:placeholder-shown _ .input_label{
+  font-size: 1rem;
+  cursor: text;
+  color: #F8F8FF;
+  top: 24px;
+}
+
+label.input_field:focus _ .input_label{
+  position: absolute;
+  top: 6px;
+  padding: 0 4px;
+  background-color: #140E37;
+  display: block;
+  font-size: 14px;
+  left: 8px;
+  color: #2222a1;
+}
+
+.input_field:focus _ .input_label{
+  color: #FF9950;
+}
+
+.input_field:focus{
+  border: 1.5px solid #FF9950;
+  outline:c1px solide #FF9950;
+}
+
+.input_icon{
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  width: 28px;
+  height: 28px;
+  stroke: #F8F8FF;
+  stroke-width: 1.5px;
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.input_field:focus _ .input_icon{
+  stroke: #FF9950;
+}
