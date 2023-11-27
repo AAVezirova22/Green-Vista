@@ -18,6 +18,22 @@ function stickyNav () {
 }
 
 
+function toggleMenu() {
+    document.addEventListener('click', function(e) {
+        if(e.target.classList.contains('menu-icon')) {
+            var hMenu = document.querySelector('.menu-hamburger');
+            if(hMenu.classList.contains('visible')) {
+                hMenu.classList.remove('visible');
+            }
+            else{
+                hMenu.classList.add('visible');
+            }
+        }
+    })
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     stickyNav();
+    toggleMenu();
 })

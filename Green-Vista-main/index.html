@@ -11,6 +11,20 @@
 </head>
 <body>
     <div class="page">
+        <div class="menu-hamburger">
+            <ul class="menu">
+                <li><a href="#buttons" style="text-decoration: none;">Sign in/Sign up</a></li>
+                <div class="line-menu" ></div>
+                <li><a href="#map-menu-opt" style="text-decoration: none;">Map of Pollution</a></li>
+                <div class="line-menu" ></div>
+                <li><a href="#news-archive" style="text-decoration: none;">Our news archive</a></li>
+                <div class="line-menu" ></div>
+                <li><a href="#pollution-graphs" style="text-decoration: none;">Our pollution graphs</a></li>
+                <div class="line-menu" ></div>
+                <li><a href="#" style="text-decoration: none;">E</a></li>
+                <div class="line-menu" ></div>
+            </ul>
+        </div>
         <div class="bg-image-header">
             <div class="navbar">
             <img class="menu-icon" src="./images/menu.png" alt="Menu Icon">
@@ -33,6 +47,7 @@
             <h1 class="main-heading">The eco <br>lifestyle</h1>
 
                 <div class="sign">
+                    <div id="buttons"></div>
                     <button class="button-56" id="button1" role="button">Sign in</button>
                     <br>
                     <h3 style="color: rgb(81, 104, 81);">or</h3>
@@ -41,17 +56,19 @@
                 </div>    
             </div>    
     </div>
-    <div class="main-elements">
-        <div class="line"></div>                   
-        <h1 class="map-heading">Lets take a look at <br> the polluted places in Bulgaria:</h1>
+    <div class="main-elements" id="map-menu-opt">
+        <div class="line" ></div>                   
+        <h1 class="map-heading" >Lets take a look at <br> the polluted places in Bulgaria:</h1>
     </div>
     <div class="map-box gv-box gv-box-80">
         <div id="map"></div>
     </div>
     <br>
     <p class="inf_map">As you can see, the pollution in Bulgaria is very severe and we need to think about not only us, but the future generations.</p>
+   <div id="news-archive"></div>
     <div class="line2"></div>
-    <h1 class="summary">Our NEWS archive</h1>
+    
+    <h1 class="summary" >Our NEWS archive</h1>
     <div class="news">
         <div class="archive">
           <div class="do-you-know">
@@ -75,6 +92,7 @@
             </div>
         </div>      
     </div>
+    <div id="pollution-graphs"></div>
     <div class="line1"></div>   
     <h1 class="diagrams-heading">More about pollution in 2021...</h1>
     <br>
@@ -109,7 +127,8 @@
                 <div class="footer-col">
                     <h4>Get updated</h4>
                     <ul>
-                        
+                        <p class="email-text">E-mail: <input type="email" class="email"></p>
+
                         <div class="input_wrapper">
                             <input 
                                 id="email"
@@ -122,7 +141,6 @@
                                 htmlFor="password"
                                 class="input_label"
                             >
-                        
                         </label>
                         <svg
                             xmlns="https://www.w3.org/2000/svg"
@@ -158,7 +176,5 @@
             </div>
         </div>
     </footer>
-
 </body>
-
 </html>

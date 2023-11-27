@@ -11,7 +11,6 @@
 
 body{
   width: 100%;
-  align-items: center;
     justify-content: center;
     display: flex;
   flex-direction: column;
@@ -282,7 +281,7 @@ h3{
   
   margin-left: 100px;
  display: flow;
-
+  z-index: -10000;
 }
 .text-box{
   
@@ -340,7 +339,6 @@ h3{
   position: relative;
   height: 2px;
   width: 50%;
-  
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
   right: 50%;
@@ -354,7 +352,6 @@ h3{
   position: sticky;
   height: 2px;
   width: 30%;
-  
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
   right: 50%;
@@ -363,6 +360,19 @@ h3{
   border-radius: 20%;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.line-menu{
+  position: relative;
+  height: 2px;
+  width: 70%;
+  background: linear-gradient(to left, #507053 0%, #94CA99 100%);
+  -webkit-text-fill-color: transparent;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .map-heading{
@@ -381,14 +391,19 @@ background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
   font-size: 93px;
   text-align: center;
   position: relative;
-  top: 180px;
+  top: 100px;
   background: #557449;
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Inter Tight', sans-serif;
- 
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
+.abtUsMainTxt > span{
+      font-family: 'Inter Tight', sans-serif;
+}
+
 .inf_map{
   position: sticky;
   text-align: center;
@@ -421,12 +436,11 @@ position: sticky;
 .card-lists {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 30px;
+  justify-content: center;
 }
  
 .card-item {
   display: flex;
- 
   transition: box-shadow .3s;
   width: 450px;
   height: auto;
@@ -532,7 +546,7 @@ ul{
 .footer{
   background-color: rgb(221, 221, 186);
   padding: 70px 0;
-  width: 1470px;
+  text-align: center;
 }
 
 .footer-col{
@@ -552,7 +566,6 @@ ul{
 .footer-col h4::before{
   content: '';
   position: absolute;
-  left: 0;
   bottom: -10px;
   background-color: #e91e63;
   height: 2px;
@@ -602,6 +615,36 @@ ul{
   border-radius: 10px;
   width: 80px;
   cursor: pointer;
+}
+
+
+.menu-hamburger {
+  width: 250px;
+  height: 40vh;
+  padding: 20px;
+  position: absolute;
+  top: 55px;
+  left: -400px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 1px 15px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+text-align: center;
+
+}
+.menu > li >a{
+  font-size: 23px;
+  color: #5a815d;
+  font-family: Neucha, sans-serif;
+}
+
+
+.menu-hamburger.visible {
+  left: 0
 }
 
 .input_wrapper{
