@@ -426,6 +426,15 @@ position: sticky;
  font-size: 60px;
 }
 
+.diagrams-heading{
+  text-align: center;
+  font-size: 50px;
+  background: rgb(236,227,206);
+  background: linear-gradient(90deg, rgba(236,227,206,1) 0%, rgba(58,77,57,1) 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card-lists {
   display: flex;
   flex-wrap: wrap;
