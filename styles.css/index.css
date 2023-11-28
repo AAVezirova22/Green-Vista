@@ -45,6 +45,18 @@ body{
   top: 0px;
   z-index: 1000;
 }
+.navbar-other-pages{
+  background-color: transparent;
+  padding: 10px -5px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 1px 10px 0 #649868;
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 2px );
+}
 
 .sticky-bar {
   position: fixed;
@@ -386,7 +398,7 @@ background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
   font-size: 93px;
   text-align: center;
   position: relative;
-  top: 50px;
+  top: 190px;
   background: #557449;
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
   -webkit-background-clip: text;
@@ -398,24 +410,41 @@ background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
 .abtUsMainTxt > span{
       font-family: 'Inter Tight', sans-serif;
 }
-.group-photo{
- 
-    width: 60%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M824.5 611Q806 722 727 838t-185-12.5Q436 697 307.5 715T99 616.5q-80-116.5 18-220t183.5-175q85.5-71.5 174 6T652 315q89 10 140 97.5T824.5 611Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M824.5 611Q806 722 727 838t-185-12.5Q436 697 307.5 715T99 616.5q-80-116.5 18-220t183.5-175q85.5-71.5 174 6T652 315q89 10 140 97.5T824.5 611Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
-    padding: 170px;
-  
+.gp{
+  border-radius: 22% 78% 71% 29% / 30% 61% 39% 70%;
+  background-image: url(../images/card_news_4.png);
+  width: 100vh;
+  height: 100vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 110px;
+
+}
+
+
+.info-map-altogether {
+  display: flex;
 }
 
 .inf_map{
   position: sticky;
   text-align: center;
   font-size: 25px;
-  color:#3A4D39;
+  color: #698667;
   font-weight: bold;
+  padding-left: 292px;
+  margin-right: 11px;
+}
+
+.arrow{
+  width: 150px;
+  height: 150px;
+  rotate: 90deg;
+  margin-right: 174px;
+  margin-top: -95px;
+
 }
 .line2{
 position: sticky;
@@ -431,6 +460,7 @@ position: sticky;
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .summary{
  /* margin-top: 1200px; */
  left:20%;
@@ -724,7 +754,7 @@ border-top-left-radius: 0;
 border-bottom-left-radius: 0;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 text-align: center;
-
+z-index: 100000;
 }
 .menu > li >a{
   font-size: 23px;
