@@ -123,6 +123,13 @@
             </div>
         </div>      
     </div>
+    <br>
+    <div class="line1"></div>  
+    <br>
+    <p class="abtUsMainTxt"><span><b>Meet our TEAM</b></span></p>
+            <div class="gp"></div>
+            <div id="our-team-members"></div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -134,12 +141,28 @@
                         <li><a href="./html doc/AboutUs.html">About us</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-col">
                     <h4>Get updated</h4>
                     <ul>
-                        <p class="email-text">E-mail: <input type="email" class="email"></p>
+                        <div class="input_wrapper">
+                            <p class="username-text">Username:</p>
+                            <input 
+                                id="text"
+                                type="text"
+                                placeholder="Your Username"
+                                required
+                                class="input_field"
+                            >
+                            <label
+                                htmlFor="password"
+                                class="input_label"
+                            >
+                            </label>
+                        </div>
 
                         <div class="input_wrapper">
+                            <p class="email-text">E-mail:</p>
                             <input 
                                 id="email"
                                 type="email"
@@ -151,26 +174,27 @@
                                 htmlFor="password"
                                 class="input_label"
                             >
-                        </label>
-                        <svg
-                            xmlns="https://www.w3.org/2000/svg"
-                            class="inpu_icon"
-                            width="24" height="24"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="currentColor"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        > 
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h- 14a2 2 0 0 1 -2 -2v -10z"></path>
-                            <path d="M3 7l9 6l9 -6"></path>
-                            </svg>
+                            </label>
                         </div>
 
-                        <p class="pass-text">Password: <input type="password" class="pass"></p>
+                        <div class="input_wrapper">
+                            <p class="pass-text">Password:</p>
+                            <input 
+                                id="password"
+                                type="password"
+                                placeholder="Your Password"
+                                required
+                                class="input_field"
+                            >
+                            <label
+                                htmlFor="password"
+                                class="input_label"
+                            >
+                            </label>
+                        </div>
+                        
                         <input type="button" class="footer-button" value="Sign up">
+
                         <li><a href="./html doc/ContactUs.html">FAQ</a></li>
                     </ul>
                 </div>
@@ -185,6 +209,14 @@
                 </div>
             </div>
         </div>
+
+        <p class="p-footer">Our Addresses
+            g.k. Miladinovi Brothers 464, 8001 g.k. Bratya Miladinovi, Burgas
+            Ivan Vazov 16, 5580 Ugarchin
+            Vitosha Blvd 42, 1000 Sofia Center, Sofia</p>
+        <p>© 2023, Green Vista, Inc. All Rights Reserved</p>
+
     </footer>
+
 </body>
 </html>

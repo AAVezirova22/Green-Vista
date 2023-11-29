@@ -237,14 +237,15 @@ button:hover:before,button:hover:after{
   font-size: 40px;
   color: #3A4D39;
 }
+
 .bg-image-header {
   background-image:url('../images/background_pic.png');
   width: 100%;
   /* height: 1024px;   */
   background-size: cover;   
 }
+
 .bg-image-header1 {
- 
   width: 100%;
   /* height: 1024px;   */
   background-size: cover;   
@@ -283,27 +284,25 @@ h3{
 }
 
 .logo{
-
-   width: 40px;
+  width: 40px;
   margin-left: -1220px;
   margin-top: 10px;
   margin-left: 100px;
- display: flow;
+  display: flow;
 }
 .text-box{
-  
   position: absolute;
   background: rgba(163, 153, 134, 0.219);
-  
-    backdrop-filter: blur( 1.5px );
+  backdrop-filter: blur( 1.5px );
   -webkit-backdrop-filter: blur( 3px );
   border-radius: 20px;
   height: 440px;
   width: 470px;
   margin-top: 250px;
- right: 0;
- margin-right: 100px;
+  right: 0;
+  margin-right: 100px;
 }
+
 .text-box > p{
   font-family:  'Inter Tight', sans-serif;
 
@@ -355,6 +354,7 @@ h3{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .line1 {
   position: sticky;
   height: 2px;
@@ -389,9 +389,9 @@ h3{
   text-align: center;
   font-size: 60px;
   background: #FFC685;
-background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .abtUsMainTxt{
@@ -410,19 +410,18 @@ background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
 .abtUsMainTxt > span{
       font-family: 'Inter Tight', sans-serif;
 }
+
 .gp{
   border-radius: 22% 78% 71% 29% / 30% 61% 39% 70%;
   background-image: url(../images/card_news_4.png);
   width: 100vh;
   height: 100vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 110px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
-
 
 .info-map-altogether {
   display: flex;
@@ -446,11 +445,11 @@ background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
   margin-top: -95px;
 
 }
+
 .line2{
-position: sticky;
+  position: sticky;
   height: 2px;
   width: 30%;
-  
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
   right: 50%;
@@ -648,7 +647,6 @@ position: sticky;
   }
 }
 
-
 .container{
   max-width: 1170px;
   margin: auto;
@@ -721,22 +719,24 @@ ul{
   width: 185px;
 }
 
-.email-text{
-  color: rgba(79, 111, 82, 1);
-  font-size: 16px;
-}
-
-.pass-text{
-  color: rgba(79, 111, 82, 1);
-  font-size: 16px;
-}
-
 .footer-button{
-  border-radius: 10px;
   width: 80px;
+  display: flex;
+  flex-basis: 48%;
+  background-color: rgba(79, 111, 82, 1);
+  height: 20px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
   cursor: pointer;
+  transition: 1s;
+  justify-content: center;
+  
 }
 
+.footer-button:hover{
+  background-color: rgb(50, 66, 52);
+}
 
 .menu-hamburger {
   width: 250px;
@@ -746,15 +746,15 @@ ul{
   top: 55px;
   left: -400px;
   background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 1px 15px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-text-align: center;
-z-index: 100000;
+  box-shadow: 0 1px 15px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  text-align: center;
+  z-index: 100000;
 }
 .menu > li >a{
   font-size: 23px;
@@ -762,14 +762,13 @@ z-index: 100000;
   font-family: Neucha, sans-serif;
 }
 
-
 .menu-hamburger.visible {
   left: 0
 }
 
 .input_wrapper{
   position: relative;
-  padding: 15px 0 0;
+  padding: 15 px 0 0;
 }
 
 .input_field{
@@ -845,3 +844,24 @@ label.input_field:focus _ .input_label{
   box-shadow: 0 0 30px rgba(0,0,0,.5);
 }
 /*TOVA TRQBVA DA SE FIXNE OSHTE*/
+
+.p-footer{
+  white-space: pre-line;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.email-text{
+  color: rgba(79, 111, 82, 1);
+  font-size: 16px;
+}
+
+.pass-text{
+  color: rgba(79, 111, 82, 1);
+  font-size: 16px;
+}
+
+.username-text{
+  color: rgba(79, 111, 82, 1);
+  font-size: 16px;
+}
