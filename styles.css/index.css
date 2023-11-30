@@ -413,7 +413,7 @@ h3{
 
 .gp{
   border-radius: 22% 78% 71% 29% / 30% 61% 39% 70%;
-  background-image: url(../images/card_news_4.png);
+  background-image: url('../images/card_news_4.png');
   width: 100vh;
   height: 100vh;
   position: relative;
@@ -1710,3 +1710,4 @@ label.input_field:focus _ .input_label{
   color: white;
   transition: 0.5s;
 }
+
