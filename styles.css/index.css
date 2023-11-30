@@ -689,7 +689,7 @@ h3{
 }
 
 .row{
- 
+ display: flex;
   flex-wrap: wrap;
 }
 .before-footer{
@@ -958,5 +958,9 @@ label.input_field:focus _ .input_label{
   color: white;
   text-align: center;
 }
-
-
+.curved h1{
+  font-size: 40px;
+}
+.curved p{
+  font-size: 30px;
+}
