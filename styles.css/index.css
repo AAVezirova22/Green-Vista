@@ -135,7 +135,7 @@ button{
 }
 
 button:hover{
-  background:#fff;
+  background-color: transparent;
   color:#3A4D39;
 }
 
@@ -1463,8 +1463,8 @@ ul{
 }
 
 .footer{
-  background-color: rgb(221, 221, 186);
-  padding: 70px 0;
+  background-color: rgb(243, 243, 191);
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -1525,18 +1525,24 @@ ul{
   display: flex;
   flex-basis: 48%;
   background-color: rgba(79, 111, 82, 1);
-  height: 20px;
+  height: 25px;
   border-radius: 10px;
   border: 0;
   outline: 0;
   cursor: pointer;
   transition: 1s;
   justify-content: center;
-  
+  font-size: 10px;
+  margin-left: 170px;
+  margin-top: 5px;
 }
 
 .footer-button:hover{
-  background-color: rgb(50, 66, 52);
+  background-color: rgb(73, 107, 78);
+}
+
+.copyright{
+  margin-top: 120px;
 }
 
 .menu-hamburger {
@@ -1646,10 +1652,12 @@ label.input_field:focus _ .input_label{
 }
 /*TOVA TRQBVA DA SE FIXNE OSHTE*/
 
+
 .p-footer{
   white-space: pre-line;
   text-align: right;
   margin-right: 10px;
+  margin-top: 50px;
 }
 
 .email-text{
@@ -1665,4 +1673,40 @@ label.input_field:focus _ .input_label{
 .username-text{
   color: rgba(79, 111, 82, 1);
   font-size: 16px;
+}
+
+.socials{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a i{
+  font-size: 2em;
+  color: rgba(79, 111, 82, 1);
+  opacity: 0.9;
+}
+
+.socials a:hover{
+  background-color: rgb(71, 95, 73);
+  transition: 0.5s;
+}
+
+.socials a:hover i{
+  color: white;
+  transition: 0.5s;
 }
