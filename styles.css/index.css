@@ -953,14 +953,24 @@ label.input_field:focus _ .input_label{
   color: white;
   transition: 0.5s;
 }
-.curved{
-  background: blue;
-  color: white;
-  text-align: center;
+
+.curved {
+  position: absolute;
+  top: 115.5px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
-.curved h1{
-  font-size: 40px;
+
+.curved svg {
+  position: relative;
+  display: block;
+  width: calc(153% + 1.3px);
+  height: 493px;
 }
-.curved p{
-  font-size: 30px;
+
+.curved .shape-fill {
+  fill: #C5E2B6;
 }
