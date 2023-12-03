@@ -574,14 +574,14 @@ header::before{
   display: flex;
   cursor: pointer;
   font-size: 2.2rem;
-  background: #000;
+  background: none;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   transform: translateY(-50%);
 }
 .slider-wrapper .slide-button:hover {
-  background: #404040;
+  background: none;
 }
 .slider-wrapper .slide-button#prev-slide {
   left: -25px;
@@ -607,6 +607,8 @@ header::before{
   width: 325px;
   height: 400px;
   object-fit: cover;
+  border: 2px solid rgb(85, 124, 83);
+  
 }
 .container .slider-scrollbar {
   height: 24px;
@@ -654,57 +656,71 @@ header::before{
   width: 320px;
 }
 .text-in-slider{
-  font-size: 50px;
+  font-size: 25px;
   color: rgb(85, 124, 83);
   text-align: center;
 }
-
-
-
-
 .button-60 {
-  align-items: center;
-  appearance: none;
-  background-color: #fff;
-  border: 1px solid #dbdbdb;
-  border-radius: .375em;
-  box-shadow: none;
+  background: transparent;
+  backface-visibility: hidden;
+  border-radius: .375rem;
+  border-style: solid;
+  border-width: .100rem;
   box-sizing: border-box;
-  color: #363636;
+  color: #212121;
   cursor: pointer;
-  display: inline-flex;
-  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 1rem;
-  height: 2.5em;
-  justify-content: center;
-  line-height: 1.5;
-  padding: calc(.5em - 1px) 1em;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: .400rem 0.5rem;
   position: relative;
-  text-align: center;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
+  margin-left: 90px;
 }
 
-.button-60:active {
-  border-color: #4a4a4a;
-  outline: 0;
+.button-60:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-60:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
 }
 
 .button-60:focus {
-  border-color: #485fc7;
-  outline: 0;
+  outline: 0 solid transparent;
 }
 
-.button-60:hover {
-  border-color: #b5b5b5;
+.button-60:focus:before {
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
 }
 
-.button-60:focus:not(:active) {
-  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+.button-60:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
 }
+
+.button-60:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button-60:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
   .slider-wrapper .slide-button {
