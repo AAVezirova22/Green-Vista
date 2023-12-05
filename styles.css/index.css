@@ -411,23 +411,8 @@ h3{
 .abtUsMainTxt > span{
       font-family: 'Inter Tight', sans-serif;
 }
-header{
-  width: 100%;
-  height: 100vh;
-  background: url(./images/card_news_4.png);
-  background-size: cover;
-  position: relative;
-}
-header::before{
-  content: ' ';
-  width: 100%;
-  height: 100vh;
-  background: url('./images/card_news_4.png');
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  mix-blend-mode: screen;
+.our_team_picture{
+  border-radius: 50px;
 }
 
 .all-group-photos{
@@ -435,15 +420,90 @@ header::before{
   justify-content: center;
   gap: 50px;
 }
-.gp{
-  border-radius: 22% 78% 71% 29% / 30% 61% 39% 70%;
-    background-image: url(../images/card_news_4.png);
-    width: 164px;
-    height: 164px;
-    position: relative;
-    display: flex;
+.ani{
+  margin-top: 15px;
+  margin-left: 16px;
+  border-radius: 600px;
+  height: 350px;
+  box-shadow: 3px 3px 3px #324734;
 }
-
+.nikol{
+  margin-top: 15px;
+  margin-left: 16px;
+  border-radius: 600px;
+  height: 350px;
+  box-shadow: 3px 3px 3px #324734;
+}
+.teodora{
+  margin-top: 15px;
+  margin-left: 16px;
+  border-radius: 600px;
+  height: 350px;
+  box-shadow: 3px 3px 3px #324734;
+}
+.kristiyana{
+  margin-top: 15px;
+  margin-left: 16px;
+  border-radius: 600px;
+  height: 350px;
+  box-shadow: 3px 3px 3px #324734;
+}
+.name1{
+  color: #324734;
+  font-size: 25px;
+  margin-top: 17px;
+  margin-left: 10px;
+}
+.name2{
+  color: #324734;
+  font-size: 25px;
+  margin-top: 17px;
+}
+.name3{
+  color: #324734;
+  font-size: 25px;
+  margin-top: 17px;
+}
+.name4{
+  color: #324734;
+  font-size: 25px;
+  margin-top: 17px;
+}
+.role_in_project1{
+  margin-top: 80px;
+  font-size: 19px;
+  color:#7D562E;
+  font-weight: bold;
+  margin-left: 90px;
+}
+.role_in_project2{
+  margin-top: 80px;
+  font-size: 19px;
+  color:#7D562E;
+  font-weight: bold;
+  margin-left: 110px;
+}
+.role_in_project3{
+  margin-top: 80px;
+  font-size: 19px;
+  color:#7D562E;
+  font-weight: bold;
+  margin-left: 110px;
+}
+.role_in_project4{
+  margin-top: 80px;
+  font-size: 19px;
+  color:#7D562E;
+  font-weight: bold;
+  margin-left: 110px;
+}
+.gp1, .gp2, .gp3, .gp4{
+  border: 2px solid #324734;
+  padding-right: 40px;
+  border-radius: 600px;
+  height: 650px;
+  width: 300px;
+}
 .info-map-altogether {
   display: flex;
 }
