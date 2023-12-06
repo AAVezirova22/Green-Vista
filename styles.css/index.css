@@ -502,6 +502,7 @@ button:hover:before,button:hover:after{
  right: 20%;
  text-align: center;
  font-size: 60px;
+ margin-bottom: 50px;
 }
 
 .diagrams-heading{
@@ -623,7 +624,7 @@ button:hover:before,button:hover:after{
   height: 400px;
   object-fit: cover;
   border: 2px solid rgb(85, 124, 83);
-  
+  text-align: center;
 }
 .container .slider-scrollbar {
   height: 24px;
@@ -699,7 +700,6 @@ button:hover:before,button:hover:after{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 90px;
 }
 
 .button-60:not(:disabled):hover {
