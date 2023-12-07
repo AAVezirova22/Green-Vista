@@ -1653,3 +1653,125 @@ section .wave6:before{
   animation-delay: -5s;
   animation: animate 20s linear infinite;
 }
+#send_File{
+  align-items: center;
+  background-color: #698667;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+#send_File:hover,
+#send_File:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#send_File:hover {
+  transform: translateY(-1px);
+}
+
+#send_File:active {
+  background-color: #698667;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+#button_submit_image{
+    align-items: center;
+  background-color: #698667;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+#button_submit_image:hover,
+#button_submit_image:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#button_submit_image:hover {
+  transform: translateY(-1px);
+}
+
+#button_submit_image:active {
+  background-color: #698667;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.day-1, .day-2, .day-3, .day-4, .day-5, .day-6, .day-7{
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    align-items: center;
+    border: 2px solid rgb(34, 56, 37);
+    border-radius: 60px;
+    width: 350px;
+    height: 220px;
+}
+.days{
+ margin-top: 250px;
+}
+.challenge_days{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 6px #698667;
+}
+.task{
+    font-size: 25px;
+    color: #4d5e46;
+}
+.heading_challenge-yourself{
+  margin-top: 600px;
+  font-size: 50px;
+}
+.text-challenge{
+  color: #324734;
+  font-size: 20px;
+}
