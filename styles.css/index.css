@@ -431,6 +431,7 @@ button:hover:before,button:hover:after{
   display: flex;
   justify-content: center;
   gap: 50px;
+  padding-bottom: 30px;
 }
 .photos-team-members{
   margin-top: 15px;
@@ -458,6 +459,28 @@ button:hover:before,button:hover:after{
   height: 650px;
   width: 300px;
   
+}
+.info-squares{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+.squares{
+  width: 425px;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 33px;
+  
+}
+.squares > h1{
+  color: #4d5e46;
+}
+.squares > p{
+  margin-top: 20px;
+  font-size: 25px;
+  color: #4d5e46;
 }
 .info-map-altogether {
   display: flex;
@@ -792,15 +815,58 @@ button:hover:before,button:hover:after{
     background-position: 200% center;
   }
 }
+.meet-the-team{
+  display: flex;
+}
+.button-87 {
+  margin: 10px;
+  margin-top: 205px;
+  margin-left: 150px;
+  padding: 115px 59px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #F5EFE5;
+  border-radius: 50px;
+  border: 0px;
+  font-weight: 700;
+  font-size: 35px;
+  box-shadow: 0px 0px 14px -7px #649868;
+  background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
+  cursor: pointer;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+a {
+  text-decoration: none;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color:#F5EFE5;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
 
 .container-before-footer-text{
   max-width: 1170px;
   margin: auto;
 }
+.container{
+  padding-left: 40px;
+    padding-right: 40px;
+}
 
 .row{
  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .before-footer{
   position:relative;
@@ -816,8 +882,11 @@ ul{
 
 .footer{
   background-color: #B1C3B0;
-  padding: 50px 0;
+  
   text-align: center;
+  padding-top: 24px;
+  padding-bottom: 10px;
+
 }
 
 .footer-col{
@@ -831,18 +900,20 @@ ul{
   font-weight: bold;
   text-transform: capitalize;
   margin-bottom: 30px;
-  font-weight: 500;
   position: relative;
 }
 
 .footer-col h4::before{
   content: '';
-  position: absolute;
-  bottom: -10px;
-  background-color: #3A4D39;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3A4D39;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    margin-top: 5px;
 }
 
 .footer-col ul li:not(:last-child){
@@ -893,7 +964,7 @@ ul{
   background-color: rgb(73, 107, 78);
 }
 .copyright{
-  margin-top: 120px;
+  margin-top: 85px;
 }
 .menu-hamburger {
   width: 250px;
@@ -1003,9 +1074,8 @@ label.input_field:focus _ .input_label{
 /*TOVA TRQBVA DA SE FIXNE OSHTE*/
 .p-footer{
   white-space: pre-line;
-  text-align: right;
+  text-align: center;
   margin-right: 10px;
-  margin-top: 50px;
 }
 
 .email-text{
