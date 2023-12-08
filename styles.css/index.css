@@ -1794,3 +1794,53 @@ section .wave6:before{
   color: #324734;
   font-size: 20px;
 }
+
+.contact-us-main img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay-text{
+  position: absolute;
+  top: 6275px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: rgba(115, 144, 114, 1); 
+  font-size: 60px; 
+  text-align: center;
+  white-space: pre-line;
+  font-weight: bold;
+}
+
+.overlay-text-2{
+  position: absolute;
+  top: 6470px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: rgba(115, 144, 114, 1); 
+  font-size: 35px; 
+  text-align: center;
+}
+
+.notepad img{
+  position: relative;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notepad-text{
+  position: absolute;
+  font-size: 20px;
+  top: 140px;
+  margin-left: 225px;
+  color: rgba(169, 144, 126, 1);
+  font-weight: bold;
+  transform: rotate(-35deg);
+}
