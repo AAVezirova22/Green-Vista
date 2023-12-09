@@ -2049,3 +2049,13 @@ section .wave6:before{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.dot-day-1, .dot-day-2, .dot-day-3, .dot-day-4, .dot-day-5, .dot-day-6, .dot-day-7{
+  height: 105px;
+  width: 105px;
+  background-color: #698667;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 140px;
+  margin-top: -70px;
+}
+
