@@ -406,7 +406,7 @@ button:hover:before,button:hover:after{
 .line-menu{
   position: relative;
   height: 2px;
-  width: 70%;
+  width: 80px;
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
   -webkit-text-fill-color: transparent;
   right: 50%;
@@ -493,7 +493,7 @@ button:hover:before,button:hover:after{
 }
 
 .role_in_project{
-  margin-top: 80px;
+  margin-top: 25px;
   font-size: 19px;
   color:#7D562E;
   font-weight: bold;
@@ -510,24 +510,48 @@ button:hover:before,button:hover:after{
   display: flex;
   justify-content: center;
   gap: 80px;
+  margin-bottom: 90px;
+}
+.main-info-squares{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
   margin-bottom: 30px;
 }
 .squares{
   width: 425px;
-  height: 250px;
+  height: 265px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 33px;
   
 }
+.main-squares{
+  width: 425px;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 33px;
+}
+.main-squares > h1{
+  color: #4d5e46;
+ 
+}
 .squares > h1{
   color: #4d5e46;
+  font-size: 24px;
 }
-.squares > p{
+.main-squares > p{
   margin-top: 20px;
   font-size: 25px;
   color: #4d5e46;
 }
+.squares > p{
+  color: #4d5e46;
+  font-size: 19px;
+  margin-top: 11px;
+}
+
 .info-map-altogether {
   display: flex;
 }
@@ -865,26 +889,20 @@ button:hover:before,button:hover:after{
   display: flex;
 }
 .button-87 {
-  margin: 10px;
-  margin-top: -110px;
-  margin-left: 225px;
-  margin-right: 400px;
-  padding: 35px 39px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: #F5EFE5;
-  border-radius: 50px;
-  border: 0px;
-  font-weight: 700;
-  font-size: 25px;
-  box-shadow: 0px 0px 14px -7px #649868;
-  background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
-  cursor: pointer;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  
+    padding: 35px 39px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #F5EFE5;
+    border-radius: 50px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    box-shadow: 0px 0px 14px -7px #649868;
+    background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
+    cursor: pointer;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 100px;
 }
 a {
   text-decoration: none;
@@ -907,10 +925,15 @@ a {
   margin-right: 30px;
   font-size: 22px;
   color: #5a815d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .meeting{
   color:#3A4D39
 }
+
 .container-before-footer-text{
   max-width: 1170px;
   margin: auto;
@@ -1024,8 +1047,8 @@ ul{
   margin-top: 85px;
 }
 .menu-hamburger {
-  width: 250px;
-  height: 40vh;
+  width: 270px;
+    height: 500px;
   padding: 20px;
   position: absolute;
   top: 55px;
@@ -1912,7 +1935,7 @@ section .wave6:before{
   font-size: 20px;
 }
 
-.contact-us-main img{
+.contact-us-main >img{
   position: relative;
   display: block;
   margin-left: auto;
@@ -1920,28 +1943,22 @@ section .wave6:before{
 }
 
 .overlay-text{
-  position: absolute;
-  top: 6275px;
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  
   color: rgba(115, 144, 114, 1); 
   font-size: 60px; 
   text-align: center;
-  white-space: pre-line;
   font-weight: bold;
 }
 
 .overlay-text-2{
-  position: absolute;
-  top: 6470px;
-  left: 50%; 
-  transform: translate(-50%, -50%); 
   color: rgba(115, 144, 114, 1); 
   font-size: 35px; 
   text-align: center;
 }
-
-.notepad img{
+.notepad{
+  margin-top: 30px;
+}
+.notepad > img{
   position: relative;
   top: 10px;
   width: 200px;
@@ -1954,38 +1971,45 @@ section .wave6:before{
 
 .notepad-text{
   position: absolute;
-  font-size: 20px;
-  top: 140px;
-  margin-left: 225px;
-  color: rgba(169, 144, 126, 1);
-  font-weight: bold;
-  transform: rotate(-35deg);
+    font-size: 20px;
+    color: rgba(169, 144, 126, 1);
+    font-weight: bold;
+    transform: rotate(308deg);
+    right: 0;
+    left: 0;
+    padding-bottom: 400px;
+    padding-left: 500px;
 }
 .container_contact_us{
-  margin-top: 170px;
-  margin-left: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 80%;
   background: #B1C3B0;
   border-radius: 16px;
   padding: 20px 60px 40px 40px;
   box-shadow: 0 5px 10px #324734;
 }
-.container_contact_us .content_contact_us{
+.container_contact_us >.content_contact_us{
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
-.container_contact_us .content_contact_us .left-side{
+.content_contact_us  >.left-side{
   width: 25%;
   height: 100%;
   position: relative;
 }
-.content_contact_us .left-side .details{
+
+
+
+.left-side >.details{
   margin: 14px;
   text-align: center;
 }
-.content_contact_us .left-side::before{
+.content_contact_us >.left-side::before{
   content: '';
   position: absolute;
   height: 70%;
@@ -1996,7 +2020,7 @@ section .wave6:before{
   transform: translateY(-7%);
   background-color: #5e5c5c;
 }
-.content_contact_us .left-side .details i{
+.details> i{
   font-size: 30px;
   color: #324734;
   text-align: center;
@@ -2015,25 +2039,22 @@ section .wave6:before{
   font-size: 14px;
   color: #5e5c5c;
 }
-.container_contact_us .content_contact_us .right-side{
+.right-side{
   width: 75%;
   margin-left: 90px;
 }
-.content_contact_us .right-side .topic-text{
+.topic-text{
   font-size: 23px;
   font-weight: 600;
   color: #324734;
 }
-.topic-text{
-  margin-top: -150px;
-}
-.right-side .input-box_contact_us{
+.input-box_contact_us{
   height: 50px;
   width: 100%;
   margin: 12px 0;
 }
-.right-side .input-box_contact_us input,
-.right-side .input-box_contact_us textarea{
+.input-box_contact_us > input,
+.input-box_contact_us > textarea{
   height: 100%;
   width: 100%;
   border: none;
@@ -2044,10 +2065,10 @@ section .wave6:before{
   padding: 0 15px;
   resize: none;
 }
-.right-side .message-box{
+.right-side > .message-box{
   min-height: 110px;
 }
-.right-side .button_send_now input[type="button"]{
+ .button_send_now > input[type="button"]{
   color:#324734;
   font-size: 18px;
   outline: none;
@@ -2058,7 +2079,7 @@ section .wave6:before{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button_send_now input[type="button"]:hover{
+.button_send_now >input[type="button"]:hover{
   background: #4d5e46;
 }
 .heading_story{
