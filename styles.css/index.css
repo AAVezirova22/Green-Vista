@@ -450,6 +450,16 @@ button:hover:before,button:hover:after{
   width: 1315px;
   height: 970px;
   margin-top: 65px;
+  margin-left: 550px;
+  margin-right: 50px;
+}
+.our_team_picture1{
+  border-radius: 41% 94% 95% 22% / 30% 55% 70% 103%;
+  width: 1315px;
+  height: 970px;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .pointers{
   display: flex;
@@ -856,9 +866,10 @@ button:hover:before,button:hover:after{
 }
 .button-87 {
   margin: 10px;
-  margin-top: 505px;
-  margin-left: 140px;
-  padding: 45px 59px;
+  margin-top: -110px;
+  margin-left: 225px;
+  margin-right: 400px;
+  padding: 35px 39px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -867,7 +878,7 @@ button:hover:before,button:hover:after{
   border-radius: 50px;
   border: 0px;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 25px;
   box-shadow: 0px 0px 14px -7px #649868;
   background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
   cursor: pointer;
@@ -890,6 +901,16 @@ a {
   transform: scale(0.95);
 }
 
+.text_story{
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 30px;
+  font-size: 22px;
+  color: #5a815d;
+}
+.meeting{
+  color:#3A4D39
+}
 .container-before-footer-text{
   max-width: 1170px;
   margin: auto;
@@ -2048,6 +2069,7 @@ section .wave6:before{
   background: linear-gradient(90deg, #7D562E 0%, rgba(58,77,57,1) 74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: -30px;
 }
 .dot-day-1, .dot-day-2, .dot-day-3, .dot-day-4, .dot-day-5, .dot-day-6, .dot-day-7{
   height: 105px;
