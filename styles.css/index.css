@@ -1401,6 +1401,7 @@ label.input_field:focus _ .input_label{
   border-radius: 60px;
   width: 434px;
     height: 425px;
+  margin-top: 30px;
   margin-bottom: 20px;
   justify-content: center;
   display: flex;
@@ -1421,6 +1422,21 @@ label.input_field:focus _ .input_label{
   letter-spacing: 4px;
   text-shadow: 3px 3px 6px #698667;
   color: #698667;
+}
+.circle-challenge{
+  height: 157px;
+  width: 110px;
+  background-color: #698667;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 140px;
+  padding: 25px;
+}
+.challenge > form{
+    margin-bottom: 80px;
+}
+.logo-challenges{
+    height: 50px;
 }
 .task{
   font-size: 25px;
@@ -1597,14 +1613,5 @@ label.input_field:focus _ .input_label{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -30px;
-}
-.dot-day-1, .dot-day-2, .dot-day-3, .dot-day-4, .dot-day-5, .dot-day-6, .dot-day-7{
-  height: 105px;
-  width: 105px;
-  background-color: #698667;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 140px;
-  margin-top: -70px;
 }
 
