@@ -1265,40 +1265,14 @@ label.input_field:focus _ .input_label{
 .news_heading_box{
   background-color:#324734;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .news_heading{
   font-size: 40px;
   color: #F5EFE5;
   text-align: center;
+  padding-left: 130px;
 }
-
-.section1{
-  width: 430px;
-  height: 430px;
-  border-radius: 15px;
-  background-color: #ffffff;
-  margin-top: -50px;
-  margin-left: 80px;
-  color: #324734;
-}
-
-.section1 p li{
-  color: #000000;
-  margin-top: 10p;
-}
-
-.section2{
-  width: 430px;
-  height: 430px;
-  border-radius: 15px;
-  background-color: #ffffff;
-  margin-top: -200px;
-  margin-left: 800px;
-  color: #324734;
-
-}
-
 #send_File{
   align-items: center;
   background-color: #698667;
@@ -1477,31 +1451,7 @@ label.input_field:focus _ .input_label{
   font-size: 35px; 
   text-align: center;
 }
-.notepad{
-  margin-top: 30px;
-}
-.notepad > img{
-  position: relative;
-  top: 10px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.notepad-text{
-  position: absolute;
-    font-size: 20px;
-    color: rgba(169, 144, 126, 1);
-    font-weight: bold;
-    transform: rotate(308deg);
-    right: 0;
-    left: 0;
-    padding-bottom: 400px;
-    padding-left: 500px;
-}
 .container_contact_us{
   position: absolute;
   top: 50%;
