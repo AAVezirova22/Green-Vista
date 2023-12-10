@@ -1435,31 +1435,7 @@ label.input_field:focus _ .input_label{
   font-size: 35px; 
   text-align: center;
 }
-.notepad{
-  margin-top: 30px;
-}
-.notepad > img{
-  position: relative;
-  top: 10px;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.notepad-text{
-  position: absolute;
-    font-size: 20px;
-    color: rgba(169, 144, 126, 1);
-    font-weight: bold;
-    transform: rotate(308deg);
-    right: 0;
-    left: 0;
-    padding-bottom: 400px;
-    padding-left: 500px;
-}
 .container_contact_us{
   position: absolute;
   top: 50%;
@@ -1674,4 +1650,21 @@ label.input_field:focus _ .input_label{
   background-position: center;
   overflow: hidden;
   position: relative;
+}
+.icons_contact_us_main{
+  float: left;
+   width: 25%;
+   margin-left: 45%;
+}
+.icon_like{
+  width: 115px;
+  margin-left: -300px;
+}
+.icon_ideas{
+  width: 115px;
+  margin-left: 170px;
+}
+.icon_dislike{
+  width: 115px;
+  margin-left: 190px;
 }
