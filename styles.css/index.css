@@ -1265,40 +1265,14 @@ label.input_field:focus _ .input_label{
 .news_heading_box{
   background-color:#324734;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .news_heading{
   font-size: 40px;
   color: #F5EFE5;
   text-align: center;
+  padding-left: 130px;
 }
-
-.section1{
-  width: 430px;
-  height: 430px;
-  border-radius: 15px;
-  background-color: #ffffff;
-  margin-top: -50px;
-  margin-left: 80px;
-  color: #324734;
-}
-
-.section1 p li{
-  color: #000000;
-  margin-top: 10p;
-}
-
-.section2{
-  width: 430px;
-  height: 430px;
-  border-radius: 15px;
-  background-color: #ffffff;
-  margin-top: -200px;
-  margin-left: 800px;
-  color: #324734;
-
-}
-
 #send_File{
   align-items: center;
   background-color: #698667;
@@ -1607,4 +1581,97 @@ label.input_field:focus _ .input_label{
   margin-left: 140px;
   margin-top: -70px;
 }
-
+.wavy_background1{
+  background: url(../images/cards_news_1.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background1 .wave1, .wavy_background2 .wave2, .wavy_background3 .wave3, .wavy_background4 .wave4,
+.wavy_background5 .wave5, .wavy_background6 .wave6, .wavy_background7 .wave7, .wavy_background8 .wave8,
+.wavy_background9 .wave9{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.text_news_1, .text_news_2, .text_news_3, .text_news_4, .text_news_9, .text_news_7, .text_news_8{
+  font-size: 23px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #3A4D39;
+}
+.text_news_6, .text_news_5{
+  font-size: 17px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #3A4D39;
+}
+.wavy_background2{
+  background: url(../images/apple_pic.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background3{
+  background: url(../images/france-clothing.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background4{
+  background: url(../images/lawmakers.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background5{
+  background: url(../images/cards_news_7.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background6{
+  background: url(../images/pesticides.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background7{
+  background: url(../images/card_news_2.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background8{
+  background: url(../images/spix.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background9{
+  background: url(../images/card_news_4.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
