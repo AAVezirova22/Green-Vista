@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css/index.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="icon" href="../Green-Vista/images/logo.png">
     <title>Green Vista</title>
     <script src="../js/mapdata.js"></script>
     <script src="../js/countrymap.js"></script>
     <script src="../js/default.js"></script>
+    <script defer src="../js/animation.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -57,40 +58,44 @@
                 <p class="text">Уебсайтът, който променя ежедневните навици на хората и околната среда ръка за ръка</p>
             </div>
             <h1 class="main-heading">Еко <br>начинът <br>на  живот</h1>
-
+            <!--Sign in and Sign up buttons-->
                 <div class="sign">
                     <div id="buttons"></div> 
-                    <a href="../html doc/signIn.html"><button class="button-56" id="button1" role="button">Вход</button></a>
+                    <a href="../html doc/signIn.html"><button class="button-56 hidden" id="button1" role="button">Вход</button></a>
                     <br>
                     <h3 style="color: rgb(81, 104, 81);">или</h3>
                     <br>
-                    <a href="../html doc/signUp.html"><button class="button-56" id="button2" role="button">Регистрация</button></a>
+                    <a href="../html doc/signUp.html"><button class="button-56 hidden" id="button2" role="button">Регистрация</button></a>
                 </div>    
             </div>    
     </div>
+      <!-- Map of pollution -->
     <div class="main-elements" id="map-menu-opt">
         <div class="line" ></div>                   
-        <h1 class="map-heading" >Нека погледнем на <br>замърсените места в България:</h1>
+        <h1 class="map-heading fromlefthidden" >Нека погледнем на <br>замърсените места в България:</h1>
     </div>
     <div class="map-box gv-box gv-box-80">
         <div id="map"></div>
     </div>
     <br>
+        <!-- Text under map -->
     <div class="info-map-altogether">
-    <p class="inf_map">Както виждате, замърсяването в България е много сериозно и трябва да мислим не само за нас, но и за бъдещите поколения.
+    <p class="inf_map fromlefthidden">Както виждате, замърсяването в България е много сериозно и трябва да мислим не само за нас, но и за бъдещите поколения.
         Последиците от замърсяването на въздуха, водата и почвата в България са добре документирани и са причинили вреди за здравето на хората, местната икономика и околната среда. Затова трябва да предприемем наложителни мерки, за да се справим с този проблем и да гарантираме по-безопасно и устойчиво бъдеще за себе си и бъдещите поколения.
     </p>
+    <!-- Image arrow -->
     <div>
-        <img src="../images/arrow.png" class="arrow">
+        <img src="../images/arrow.png" class="hidden arrow">
     </div>
     </div>
-    
+    <!-- News  -->
    <div id="news-archive"></div>
     <div class="line2"></div>
     
-    <h1 class="summary" >Нашият архив с новини</h1>
+    <h1 class="summary fromlefthidden" >Нашият архив с новини</h1>
     <div class="container">
         <div class="slider-wrapper">
+            <!-- Arrows -->
           <button id="prev-slide" class="slide-button material-symbols-rounded">
             <
           </button>
@@ -151,6 +156,7 @@
                 <a href="../archive/pesticides.html"><button class="button-60" role="button">Вижте го!</button></a>
             </div>
         </ul>
+        <!-- Arrow -->
         <button id="next-slide" class="slide-button material-symbols-rounded">
             > 
         </button>
@@ -163,9 +169,10 @@
         </div>
         
         </div>
+        <!-- Graphs with pollution information -->
         <div id="pollution-graphs"></div>
         <div class="line1"></div>
-        <h1 class="diagrams-heading">Повече за замърсяването през 2021 г...</h1>
+        <h1 class="diagrams-heading fromlefthidden">Повече за замърсяването през 2021 г...</h1>
         <br>
         <div class="card-lists">
             <div class="card-item">
@@ -189,7 +196,7 @@
         <div class="line1"></div>
         <br>
         
-        <div class="main-info-squares">
+        <div class="main-info-squares hidden">
         
             <div class="main-squares">
                 <h1>Преодолейте своите граници</h1>
@@ -207,11 +214,11 @@
         <div id="our-story"></div>
         <br>
         <div class="line1"></div>
-        <h1 class="heading_story">Нашата История...</h1>
+        <h1 class="heading_story fromlefthidden">Нашата История...</h1>
         <br>
         <br>
         <div class="meet-the-team">
-            <div class="text_story">
+            <div class="text_story hidden">
                 <br>
                 <h3 class="meeting">Как се запознахме</h3>
                 <p>Нашата първа среща беше още в гимназията. Постепенно се запознахме и открихме общи теми за разговор. Започнахме да си пишем и станахме приятели.</p>
@@ -236,15 +243,22 @@
                 </div>
                 <div class="overlay-text-2">
                     Архивът с новини има нужда от вашите идеи!
-                    <div class="notepad">
-                        <a href="../html doc/ContactUs.html">
-                            <div>
-                                <img src="../images/notepad.png" alt="Бележник">
-                            </div>
+                </div>
+                <br>
+            <br>
+            <div class="icons_contact_us_main">
+            <img class="icon_like" src="../images/social-network.png">
+            <img class="icon_ideas" src="../images/lightbulb-on.png">
+            <img class="icon_dislike" src="../images/hand (1).png">
+            </div>
+            <div class="text_contact_us_main">
+                <p class="like">Ако ви харесва информацията в нашия уебсайт, можете да се свържете с нас!</p>
+                <p class="ideas">Ако имате идеи как да подобрим нашия сайт, можете да се свържете с нас!</p>
+                <p class="dislike">Ако има нещо, което ви не харесва, можете да се свържете с нас!</p>
+
+            </div>
                             
-                        <div class="notepad-text">
-                            Свържете се
-                        </div>
+                        
                         </a>
                     </div>
                 </div>

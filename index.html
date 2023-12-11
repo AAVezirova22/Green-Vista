@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="icon" href="../Green-Vista/images/logo.png">
     <title>Green Vista</title>
     <script src="./js/mapdata.js"></script>
     <script src="./js/countrymap.js"></script>
     <script src="./js/default.js"></script>
+    <script defer src="./js/animation.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -60,44 +61,44 @@
             <!--Sign in and Sign up buttons-->
                 <div class="sign">
                     <div id="buttons"></div>
-                    <a href="./html doc/signIn.html"><button class="button-56" id="button1" role="button">Sign in</button></a>
+                    <a href="./html doc/signIn.html"><button class="button-56 hidden" id="button1" role="button">Sign in</button></a>
                     <br>
                     <h3 style="color: rgb(81, 104, 81);">or</h3>
                     <br>
-                    <a href="./html doc/signUp.html"><button class="button-56" id="button2" role="button">Sign up</button></a>
+                    <a href="./html doc/signUp.html"><button class="button-56 hidden" id="button2" role="button">Sign up</button></a>
                 </div>
             </div>
     </div>
     <!-- Map of pollution -->
     <div class="main-elements" id="map-menu-opt">
         <div class="line" ></div>
-        <h1 class="map-heading" >Lets take a look at <br> the polluted places in Bulgaria:</h1>
+        <h1 class="map-heading fromlefthidden" >Lets take a look at <br> the polluted places in Bulgaria:</h1>
     </div>
     <div class="map-box gv-box gv-box-80">
         <div id="map"></div>
     </div>
     <br>
     <!-- Text under map -->
-    <div class="info-map-altogether">
-    <p class="inf_map">As you can see, the pollution in Bulgaria is very severe and we need to think about not only us, but the future generations.
+    <div class="info-map-altogether ">
+    <p class="inf_map fromlefthidden">As you can see, the pollution in Bulgaria is very severe and we need to think about not only us, but the future generations.
         The consequences of air, water, and soil pollution in Bulgaria have been well-documented, and have caused harm to people's health, the local economy, and the environment. Therefore, we must take urgent action to ad
         dress this issue in order to ensure a safer and more sustainable future for ourselves and future generations.
     </p>
     <!-- Image arrow -->
     <div>
-        <img src="./images/arrow.png" class="arrow">
+        <img src="./images/arrow.png" class="arrow hidden">
     </div>
     </div>
     <!-- News  -->
    <div id="news-archive"></div>
     <div class="line2"></div>
 
-    <h1 class="summary" >Our NEWS archive</h1>
+    <h1 class="summary fromlefthidden" >Our NEWS archive</h1>
     <div class="container">
         <div class="slider-wrapper">
             <!-- Arrows -->
           <button id="prev-slide" class="slide-button material-symbols-rounded">
-            >
+            <
           </button>
           <ul class="image-list">
             <div class="image-item" >
@@ -163,7 +164,7 @@
     <!-- Graphs with pollution information -->
     <div id="pollution-graphs"></div>
     <div class="line1"></div>
-    <h1 class="diagrams-heading">More about pollution in 2021...</h1>
+    <h1 class="diagrams-heading fromlefthidden">More about pollution in 2021...</h1>
     <br>
     <div class="card-lists">
         <div class="card-item">
@@ -187,7 +188,7 @@
     <div class="line1"></div>
     <br>
 
-    <div class="main-info-squares">
+    <div class="main-info-squares hidden">
 
                 <div class="main-squares">
                     <h1>Push your limits</h1>
@@ -205,11 +206,11 @@
             <div id="our-story"></div>
             <br>
             <div class="line1"></div>
-    <h1 class="heading_story">Our Story...</h1>
+    <h1 class="heading_story fromlefthidden">Our Story...</h1>
     <br>
     <br>
     <div class="meet-the-team">
-        <div class="text_story">
+        <div class="text_story hidden">
             <br>
             <h3 class="meeting">How we met</h3>
             <p>Our first date was in high school. Little by little we got to know each other and found
