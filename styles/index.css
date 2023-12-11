@@ -1534,12 +1534,9 @@ label.input_field:focus _ .input_label{
   -webkit-background-clip: text;
   margin-top: -30px;
 }
-/* js */
 .hidden{
   opacity: 0;
   transition: all 1s;
-  
-  
 }
 
 .show{
@@ -1556,4 +1553,144 @@ label.input_field:focus _ .input_label{
   filter: blur(0);
   transform: translateX(0);
 }
-
+.icons_contact_us_main{
+   margin-left: 250px;
+}
+.icon_like, .icon_ideas, .icon_dislike{
+  width: 270px;
+  padding-left: 196px;
+}
+.like, .ideas, .dislike{
+  font-size: 21px;
+  display: inline-block;
+}
+.text_contact_us_main{
+  text-align: center;
+}
+.like{
+  margin-right: 70px;
+}
+.dislike{
+  margin-left: 50px;
+}
+.ideas{
+  margin-left: -45px;
+}
+.button-33 {
+  background-color: #6d8962;
+  border-radius: 100px;
+  color: #F5EFE5;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 6px 19px;
+  text-align: center;
+  margin-left: 700px;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+.button-33:hover {
+  box-shadow: #507053 0 -25px 18px -14px inset,#507053 0 1px 2px,#507053 0 2px 4px,#507053 0 4px 8px #507053 0 8px 16px, #507053 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.wavy_background1{
+  background: url(../images/cards_news_1.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background1 .wave1, .wavy_background2 .wave2, .wavy_background3 .wave3, .wavy_background4 .wave4,
+.wavy_background5 .wave5, .wavy_background6 .wave6, .wavy_background7 .wave7, .wavy_background8 .wave8,
+.wavy_background9 .wave9{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.text_news_1, .text_news_2, .text_news_3, .text_news_4, .text_news_9, .text_news_7, .text_news_8{
+  font-size: 23px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #3A4D39;
+}
+.text_news_6, .text_news_5{
+  font-size: 17px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #3A4D39;
+}
+.wavy_background2{
+  background: url(../images/apple_pic.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background3{
+  background: url(../images/france-clothing.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background4{
+  background: url(../images/lawmakers.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background5{
+  background: url(../images/cards_news_7.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background6{
+  background: url(../images/pesticides.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background7{
+  background: url(../images/card_news_2.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background8{
+  background: url(../images/spix.webp);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.wavy_background9{
+  background: url(../images/card_news_4.png);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
