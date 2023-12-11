@@ -27,4 +27,4 @@ This is a website about pollution in different places around the Earth. There is
 - [Ani Vezirova](https://github.com/AAVezirova22) (Scrum trainer)
 - [Nikol Stoyanova](https://github.com/NSStoyanova22) (Designer)
 - [Teodora Skulieva](https://github.com/TDSkulieva22) (Front end Developer)
-- [Kristiyana Hristova](https://github.com/KIHristova22 (Front end Developer)
+- [Kristiyana Hristova](https://github.com/KIHristova22). (Front end Developer)
