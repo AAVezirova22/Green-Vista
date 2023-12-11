@@ -24,7 +24,7 @@ body{
   width: 80%;
   margin: auto;
 }
-
+/*Navigation bar*/
 .topnav-right a{
   position: relative;
   transition: .5s;
@@ -55,19 +55,19 @@ body{
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 1px 10px 0 #649868;
   backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px ); /*Rendering content in Safari and Chrome browsers*/
 }
-
+/*Sticky nav bar*/
 .sticky-bar {
   position: fixed;
   transition: all 2s;
 }
-
+/*Nav bar with blur and shadow*/
 .sticky-bar-shadow {
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 1px 10px 0 #649868;
   backdrop-filter: blur( 1px );
-  -webkit-backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px ); /*Rendering content in Safari and Chrome browsers*/
 }
 
 .fadeable {
@@ -109,13 +109,37 @@ body{
   left: 10px;
 }
 
+.menu-icon{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  margin-left: 20px;
+}
+
+.logo{
+  width: 40px;
+  margin-left: -1220px;
+  margin-top: 10px;
+  margin-left: 100px;
+  display: flow;
+}
+
+.logo-text{
+  position: absolute;
+  margin-left: 50px;
+  top: 10px;
+  font-size: 40px;
+  color: #3A4D39;
+}
+
 h1{
   /* position: absolute; */
   left: 100px;
   top: 10px;
   color: #3A4D39;
 }
-
+/*The buttons in general*/
 button{
   background:#3A4D39;
   color:#fff;
@@ -134,7 +158,7 @@ button{
   margin-bottom: -230px;
 }
 
-
+/*Sign In button*/
 .button-56 {
   align-self: center;
   background-color: transparent;
@@ -160,7 +184,7 @@ button{
   border-bottom-right-radius: 225px 15px;
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
-  -webkit-user-select: none;
+  -webkit-user-select: none; /*Rendering content in Safari and Chrome browsers*/
   touch-action: manipulation;
 
 }
@@ -173,43 +197,7 @@ button{
 .button-56:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
-.button-24 {
-  background: #4d5e46;
-  border: 1px solid #4d5e46;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 16px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  margin-left: 150px;
-  margin-top: -80px;
-}
-
-.button-24:hover,
-.button-24:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: #4d5e46;
-}
-
-.button-24:active {
-  opacity: .5;
-}
+/*Sign In button*/
 #button1{
   display: flex;
   justify-content: center;
@@ -219,7 +207,7 @@ button{
   margin-top: 500px;
   margin-right: -170px;
 }
-
+/*Sign Up button*/
 #button2{
   display: flex;
   justify-content: center;
@@ -229,22 +217,6 @@ button{
   margin-top: 800px;
   margin-right: 20px;
   right: 100px;
-}
-
-.menu-icon{
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  top: 15px;
-  margin-left: 20px;
-}
-
-.logo-text{
-  position: absolute;
-  margin-left: 50px;
-  top: 10px;
-  font-size: 40px;
-  color: #3A4D39;
 }
 
 .bg-image-header {
@@ -257,6 +229,39 @@ button{
   width: 100%;
   text-align: center;
   background-size: cover;   
+}
+
+.heading .text{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: Neucha, sans-serif;
+
+}
+.heading{
+  font-size: 50px;
+  margin-top: 50px;
+  color: #324734; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.text{
+  color: #324734; 
+  margin-top: 10px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.main-heading{
+  background: #557449;
+  background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
+  -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
+  -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
+  margin-top: 200px;
+  font-size: 200px;
+  margin-left: 170px;
 }
 
 .page{
@@ -291,18 +296,11 @@ button{
   color: #3A4D39;
 }
 
-.logo{
-  width: 40px;
-  margin-left: -1220px;
-  margin-top: 10px;
-  margin-left: 100px;
-  display: flow;
-}
 .text-box{
   position: absolute;
   background: rgba(163, 153, 134, 0.219);
   backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px ); /*Rendering content in Safari and Chrome browsers*/
   border-radius: 20px;
   height: 440px;
   width: 470px;
@@ -313,40 +311,6 @@ button{
 
 .text-box > p{
   font-family:  'Inter Tight', sans-serif;
-
-}
-
-.heading .text{
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: auto;
-  text-align: center;
-  font-family: Neucha, sans-serif;
-
-}
-.heading{
-  font-size: 50px;
-  margin-top: 50px;
-  color: #324734; 
-  font-weight: bold;
-  text-align: center;
-}
-
-.text{
-  color: #324734; 
-  margin-top: 10px;
-  font-size: 38px;
-  text-align: center;
-}
-
-.main-heading{
-  background: #557449;
-  background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-top: 200px;
-  font-size: 200px;
-  margin-left: 170px;
 }
 
 .line {
@@ -354,7 +318,7 @@ button{
   height: 2px;
   width: 50%;
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
   right: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -398,7 +362,7 @@ button{
   font-size: 60px;
   background: #FFC685;
   background: linear-gradient(to right, #FFC685 0%, #7D562E 100%);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
   -webkit-text-fill-color: transparent;
 }
 
@@ -409,7 +373,7 @@ button{
   top: 190px;
   background: #557449;
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
   -webkit-text-fill-color: transparent;
   display: flex;
   width: 100%;
@@ -436,10 +400,10 @@ button{
 }
 .pointers{
   display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .pointers > img{
   width: 214px;
@@ -553,7 +517,7 @@ button{
   height: 2px;
   width: 30%;
   background: linear-gradient(to left, #507053 0%, #94CA99 100%);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
   right: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -576,8 +540,8 @@ button{
   font-size: 50px;
   background: rgb(236,227,206);
   background: linear-gradient(90deg, rgba(236,227,206,1) 0%, rgba(58,77,57,1) 74%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
+  -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
 }
 
 .card-lists {
@@ -640,7 +604,7 @@ button{
 .archive:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
- 
+ /*Slider Wrapper*/
 .slider-wrapper {
   position: relative;
 }
@@ -764,7 +728,7 @@ button{
   transform: translateZ(0) scale(1);
   transition: transform .2s;
   user-select: none;
-  -webkit-user-select: none;
+  -webkit-user-select: none; /*Rendering content in Safari and Chrome browsers*/
   touch-action: manipulation;
 }
 
@@ -840,8 +804,8 @@ button{
   color: #fff;
   background-clip: text;
   text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
+  -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
   animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 129px;
@@ -861,6 +825,7 @@ button{
 .meet-the-team{
   display: flex;
 }
+/*About us button*/
 .button-87 {
     padding: 35px 39px;
     transition: 0.5s;
@@ -873,7 +838,7 @@ button{
     box-shadow: 0px 0px 14px -7px #649868;
     background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
     cursor: pointer;
-    -webkit-user-select: none;
+    -webkit-user-select: none; /*Rendering content in Safari and Chrome browsers*/
     touch-action: manipulation;
     margin-top: 100px;
 }
@@ -906,7 +871,7 @@ a {
 .meeting{
   color:#3A4D39
 }
-
+/*Footer*/
 .container-before-footer-text{
   max-width: 1170px;
   margin: auto;
@@ -917,13 +882,15 @@ a {
 }
 
 .row{
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .before-footer{
   position:relative;
 }
+
 .before-footer >img{
   width: 1018px;
     height: 648px;
@@ -935,11 +902,9 @@ ul{
 
 .footer{
   background-color: #B1C3B0;
-  
   text-align: center;
   padding-top: 24px;
   padding-bottom: 10px;
-
 }
 
 .footer-col{
@@ -958,15 +923,15 @@ ul{
 
 .footer-col h4::before{
   content: '';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #3A4D39;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-    margin-top: 5px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3A4D39;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  margin-top: 5px;
 }
 
 .footer-col ul li:not(:last-child){
@@ -996,7 +961,7 @@ ul{
   border-radius: 10px;
   width: 185px;
 }
-
+/*Buttons on the footer*/
 .footer-button{
   width: 80px;
   display: flex;
@@ -1021,7 +986,7 @@ ul{
 }
 .menu-hamburger {
   width: 270px;
-    height: 500px;
+  height: 500px;
   padding: 20px;
   position: absolute;
   top: 55px;
@@ -1184,7 +1149,7 @@ label.input_field:focus _ .input_label{
   line-height: 57px;
 }
 
-/*TOVA TRQBVA DA SE FIXNE OSHTE*/
+/*The text on the footer*/
 .p-footer{
   white-space: pre-line;
   text-align: center;
@@ -1205,7 +1170,7 @@ label.input_field:focus _ .input_label{
   color: rgba(79, 111, 82, 1);
   font-size: 16px;
 }
-
+/*Social media icons*/
 .socials{
   width: 100%;
   display: inline-flex;
@@ -1295,7 +1260,7 @@ label.input_field:focus _ .input_label{
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
-  -webkit-user-select: none;
+  -webkit-user-select: none; 
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
