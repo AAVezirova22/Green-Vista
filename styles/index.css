@@ -399,8 +399,9 @@ button{
   width: 1315px;
   height: 970px;
   margin-top: 65px;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+.team_pic_centre{
+  text-align: center;
 }
 .pointers{
   display: flex;
@@ -520,7 +521,8 @@ button{
   height: 150px;
   rotate: 90deg; /* Rotate the arrow by 90 degrees */
   margin-right: 174px;
-  margin-top: -95px; /* Add negative margin to move it up */
+  margin-top: -95px;
+
 }
 
 .line2{
@@ -605,7 +607,9 @@ button{
   flex-wrap: wrap; /* Allow items to wrap to the next line */
   margin-left: 30px;
 }
-
+.bottom_news{
+  position: relative;
+}
 .archive{
   display: flex;
   transition: box-shadow .3s;
@@ -1722,4 +1726,39 @@ label.input_field:focus _ .input_label{
   background-position: center;
   overflow: hidden;
   position: relative;
+}
+.button-24 {
+  background: #3A4D39;
+  border: 1px solid #3A4D39;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #F5EFE5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #F5EFE5;
+}
+
+.button-24:active {
+  opacity: .5;
 }
