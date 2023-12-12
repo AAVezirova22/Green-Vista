@@ -30,7 +30,7 @@ body{
   transition: .5s;
   font-weight: bold;
   float: right;
-  color: #5a815d; 
+  color: #5a815d;
   padding: 14px 16px;
   font-size: 27px;
   top: -50px;
@@ -72,7 +72,7 @@ body{
 
 .fadeable {
   opacity: 1;
-  transition: opacity 2s; 
+  transition: opacity 2s;
 }
 
 .fade {
@@ -222,13 +222,12 @@ button{
 .bg-image-header {
   background-image:url('../images/background_pic.png');
   width: 100%;
-  background-size: cover;   
+  background-size: cover;
 }
 
 .bg-image-header1 {
   width: 100%;
-  text-align: center;
-  background-size: cover;   
+  background-size: cover;
 }
 
 .heading .text{
@@ -242,13 +241,13 @@ button{
 .heading{
   font-size: 50px;
   margin-top: 50px;
-  color: #324734; 
+  color: #324734;
   font-weight: bold;
   text-align: center;
 }
 
 .text{
-  color: #324734; 
+  color: #324734;
   margin-top: 10px;
   font-size: 38px;
   text-align: center;
@@ -421,6 +420,7 @@ button{
   border-radius: 600px;
   height: 350px;
   box-shadow: 3px 3px 3px #324734;
+
 }
 .names-team-members{
   color: #324734;
@@ -434,6 +434,7 @@ button{
   font-size: 19px;
   color:#7D562E;
   font-weight: bold;
+  text-align: center;
 }
 
 .gp{
@@ -441,7 +442,7 @@ button{
   border-radius: 600px;
   height: 650px;
   width: 300px;
-  
+text-align: center;
 }
 .info-squares{
   display: flex;
@@ -461,7 +462,7 @@ button{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 33px;
-  
+
 }
 .main-squares{
   width: 425px;
@@ -472,7 +473,7 @@ button{
 }
 .main-squares > h1{
   color: #4d5e46;
- 
+
 }
 .squares > h1{
   color: #4d5e46;
@@ -549,18 +550,18 @@ button{
   flex-wrap: wrap;
   justify-content: center;
 }
- 
+
 .card-item {
   display: flex;
   transition: box-shadow .3s;
   width: 450px;
   height: auto;
 }
- 
+
 .card-item:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
- 
+
 .card-item-content {
   display: flex;
   flex-direction: column;
@@ -569,13 +570,13 @@ button{
   box-shadow: 1px 1px 1px #000000;
   border-radius: 8px;
 }
- 
+
 .card-item-content img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
- 
+
 .card-item-content :not(img) {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -592,15 +593,15 @@ button{
   flex-wrap: wrap;
   margin-left: 30px;
 }
- 
+
 .archive{
   display: flex;
- 
+
   transition: box-shadow .3s;
   width: 450px;
   height: auto;
 }
- 
+
 .archive:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
@@ -655,6 +656,7 @@ button{
   object-fit: cover;
   border: 2px solid rgb(85, 124, 83);
   text-align: center;
+  border-radius: 30px;
 }
 .container .slider-scrollbar {
   height: 24px;
@@ -700,6 +702,7 @@ button{
 .image-in-slider{
   height: 235px;
   width: 320px;
+  border-radius: 30px;
 }
 .text-in-slider{
   font-size: 25px;
@@ -775,7 +778,7 @@ button{
     gap: 10px;
     margin-bottom: 15px;
     scroll-snap-type: x mandatory;
-    
+
   }
 
   .slider-wrapper .image-list .image-item {
@@ -1207,7 +1210,7 @@ label.input_field:focus _ .input_label{
   transition: 0.5s;
 }
 
-.curved {
+.curved{
   position: absolute;
   top: 115.5px;
   left: 0;
@@ -1215,6 +1218,7 @@ label.input_field:focus _ .input_label{
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  height: 890px;
 }
 
 .curved svg {
@@ -1223,9 +1227,9 @@ label.input_field:focus _ .input_label{
   width: calc(153% + 1.3px);
   height: 493px;
   transform: rotate(180deg);
- 
+
   margin-bottom: 349px;
-  -webkit-transform: scaleX(-1); 
+  -webkit-transform: scaleX(-1);
   transform: scaleY(-1);
 }
 
@@ -1265,7 +1269,7 @@ label.input_field:focus _ .input_label{
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
-  -webkit-user-select: none; 
+  -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
@@ -1397,7 +1401,8 @@ label.input_field:focus _ .input_label{
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-git  font-size: 50px;
+  font-size: 100px;
+  text-align: center;
 }
 .text-challenge{
   color: #324734;
@@ -1414,16 +1419,16 @@ git  font-size: 50px;
 }
 
 .overlay-text{
-  
-  color: rgba(115, 144, 114, 1); 
-  font-size: 60px; 
+
+  color: rgba(115, 144, 114, 1);
+  font-size: 60px;
   text-align: center;
   font-weight: bold;
 }
 
 .overlay-text-2{
-  color: rgba(115, 144, 114, 1); 
-  font-size: 35px; 
+  color: rgba(115, 144, 114, 1);
+  font-size: 35px;
   text-align: center;
 }
 
@@ -1598,7 +1603,7 @@ git  font-size: 50px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
+
 }
 .button-33:hover {
   box-shadow: #507053 0 -25px 18px -14px inset,#507053 0 1px 2px,#507053 0 2px 4px,#507053 0 4px 8px #507053 0 8px 16px, #507053 0 16px 32px;
