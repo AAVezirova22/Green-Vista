@@ -1222,10 +1222,15 @@ label.input_field:focus _ .input_label{
   display: block;
   width: calc(153% + 1.3px);
   height: 493px;
+  transform: rotate(180deg);
+ 
+  margin-bottom: 349px;
+  -webkit-transform: scaleX(-1); 
+  transform: scaleY(-1);
 }
 
 .curved .shape-fill {
-  fill: #4d5e46;
+  fill: #F5EFE5;;
 }
 .news_heading_box{
   background-color:#324734;
@@ -1392,8 +1397,7 @@ label.input_field:focus _ .input_label{
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 600px;
-  font-size: 50px;
+git  font-size: 50px;
 }
 .text-challenge{
   color: #324734;
