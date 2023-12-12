@@ -1243,14 +1243,14 @@ label.input_field:focus _ .input_label{
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  height: 890px;
+  height: 460px;
 }
 
 .curved svg {
   position: relative;
   display: block;
   width: calc(153% + 1.3px);
-  height: 493px;
+  height: 174px;
   transform: rotate(180deg);
   margin-bottom: 349px;
   -webkit-transform: scaleX(-1); /* Flip the SVG horizontally for WebKit browsers */
@@ -1641,6 +1641,9 @@ label.input_field:focus _ .input_label{
   overflow: hidden;
   position: relative;
 }
+.wavy_background1-1{
+  margin-bottom: -5px;
+}
 .wavy_background1 .wave1, .wavy_background2 .wave2, .wavy_background3 .wave3, .wavy_background4 .wave4,
 .wavy_background5 .wave5, .wavy_background6 .wave6, .wavy_background7 .wave7, .wavy_background8 .wave8,
 .wavy_background9 .wave9{
@@ -1750,6 +1753,8 @@ label.input_field:focus _ .input_label{
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
+  margin-left: 163px;
+  margin-top: -180px;
 }
 
 .button-24:hover,
