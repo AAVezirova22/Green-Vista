@@ -69,12 +69,12 @@ body{
   backdrop-filter: blur( 1px );
   -webkit-backdrop-filter: blur( 2px ); /*Rendering content in Safari and Chrome browsers*/
 }
-
+/* Adding fade-in effect */
 .fadeable {
   opacity: 1;
   transition: opacity 2s;
 }
-
+/* Adding fade-out effect */
 .fade {
   opacity: 0 !important;
 }
@@ -82,7 +82,7 @@ body{
 .topnav-right a:hover{
   color: #3A4D39;
 }
-
+/* Styling for the underlining effect on navigation bar links */
 .topnav-right a span{
   position: absolute;
   top: 0;
@@ -96,7 +96,7 @@ body{
   opacity: 0;
   transition: .5s;
 }
-
+/* Expanding the underlining effect on navigation bar links on hover */
 .topnav-right a:hover span{
   transform: scale(1) translateY(0);
   opacity: 1;
@@ -113,10 +113,10 @@ body{
   height: 30px;
   width: 30px;
   position: absolute;
-  top: 15px;
-  margin-left: 20px;
+  top: 15px; /* Adjusting the top position */
+  margin-left: 20px; /* Adding left margin for spacing */
 }
-
+/* Styling for the logo */
 .logo{
   width: 40px;
   margin-left: -1220px;
@@ -124,7 +124,7 @@ body{
   margin-left: 100px;
   display: flow;
 }
-
+/* Styling for the logo text */
 .logo-text{
   position: absolute;
   margin-left: 50px;
@@ -134,8 +134,7 @@ body{
 }
 
 h1{
-  /* position: absolute; */
-  left: 100px;
+  left: 100px; /* Adjusting the left position */
   top: 10px;
   color: #3A4D39;
 }
@@ -154,11 +153,11 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0.8%;
+  top: 0.8%; /* Adjusting the top position */
   margin-bottom: -230px;
 }
 
-/*Sign In button*/
+/* Styling for the Sign In button with class .button-56 */
 .button-56 {
   align-self: center;
   background-color: transparent;
@@ -188,16 +187,16 @@ button{
   touch-action: manipulation;
 
 }
-
+/* Hover effect for the Sign In button */
 .button-56:hover {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
 }
 
 .button-56:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px; /* Adding box shadow on focus */
 }
-/*Sign In button*/
+/* Styling for the Sign In button with id #button1 */
 #button1{
   display: flex;
   justify-content: center;
@@ -207,7 +206,7 @@ button{
   margin-top: 500px;
   margin-right: -170px;
 }
-/*Sign Up button*/
+/* Styling for the Sign Up button with id #button2 */
 #button2{
   display: flex;
   justify-content: center;
@@ -218,26 +217,26 @@ button{
   margin-right: 20px;
   right: 100px;
 }
-
+/* Styling for a header background image */
 .bg-image-header {
   background-image:url('../images/background_pic.png');
   width: 100%;
   background-size: cover;
 }
-
+/* Styling for another header background image */
 .bg-image-header1 {
   width: 100%;
   background-size: cover;
 }
-
+/* Styling for text within a heading with class 'text' inside an element with class 'heading' */
 .heading .text{
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: auto;
   text-align: center;
   font-family: Neucha, sans-serif;
-
 }
+/* Styling for a heading element */
 .heading{
   font-size: 50px;
   margin-top: 50px;
@@ -252,7 +251,7 @@ button{
   font-size: 38px;
   text-align: center;
 }
-
+/* Styling for a main heading with gradient background */
 .main-heading{
   background: #557449;
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
@@ -267,21 +266,22 @@ button{
   width: 100%;
   display: flex;
 }
+/* Styling for a page container specific to Sign In and Sign Up with background image */
 .page-SignInSignUp{
   width: 100%;
   display: flex;
   background-image: url(../images/signUpAndSignInFormBackground.png);
 }
-
+/* Styling for the heading inside an element with class 'sign' and 'h3' tag */
 .sign > h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0.8%;
+  top: 0.8%; /* Adjusting the top position */
   margin-right: 40px;
   float: right;
-  margin-top: 860px;
-  margin-right: -84px;
+  margin-top: 860px; /* Adjusting the top margin */
+  margin-right: -84px; /* Adjusting the right margin */
   font-size: 35px;
   color: #3A4D39;
   padding-top: 20px;
@@ -404,11 +404,12 @@ button{
 }
 .pointers{
   display: flex;
-  width: 100%;
+  width: 100%; /* Take up 100% of the width of its parent */
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 25px; /* Add space above the container */
+  margin-bottom: 25px; /* Add space below the container */
 }
+/* Styling for images inside a .pointers container */
 .pointers > img{
   width: 214px;
   height: 186px;
@@ -417,25 +418,26 @@ button{
 .all-group-photos{
   display: flex;
   justify-content: center;
-  gap: 50px;
-  padding-bottom: 30px;
-}
+  gap: 50px; /* Add space between items */
+  padding-bottom: 30px;/* Add space below the container */
+} 
+/* Styling for team member photos */
 .photos-team-members{
-  margin-top: 15px;
-  border-radius: 600px;
+  margin-top: 15px; /* Add space above the container */
+  border-radius: 600px; /* Set border-radius for rounded corners */
   height: 350px;
   box-shadow: 3px 3px 3px #324734;
-
 }
+/* Styling for team member names */
 .names-team-members{
   color: #324734;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 50px; /* Add space above the text */
  text-align: center;
 }
-
+/* Styling for team member roles in the project */
 .role_in_project{
-  margin-top: 25px;
+  margin-top: 25px; /* Add space above the text */
   font-size: 19px;
   color:#7D562E;
   font-weight: bold;
@@ -444,64 +446,68 @@ button{
 
 .gp{
   border: 2px solid #324734;
-  border-radius: 600px;
+  border-radius: 600px; /* Set border-radius for rounded corners */
   height: 650px;
   width: 300px;
-text-align: center;
+  text-align: center;
 }
+/* Styling for information squares */
 .info-squares{
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 80px; /* Add space between items */
   margin-bottom: 90px;
 }
+/* Styling for main information squares */
 .main-info-squares{
   display: flex;
-  justify-content: center;
-  gap: 80px;
-  margin-bottom: 30px;
+  justify-content: center; /* Center items along the main axis */
+  gap: 80px; 
+  margin-bottom: 30px; /* Add space below the container */
 }
+/* Styling for individual squares */
 .squares{
   width: 425px;
   height: 265px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
   text-align: center;
-  padding: 33px;
-
+  padding: 33px; /* Add padding inside the squares */
 }
+/* Styling for main squares */
 .main-squares{
   width: 425px;
   height: 250px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
   text-align: center;
-  padding: 33px;
+  padding: 33px; /* Add padding inside the squares */
 }
+/* Styling for h1 inside main-squares */
 .main-squares > h1{
   color: #4d5e46;
-
 }
+/* Styling for h1 inside squares */
 .squares > h1{
   color: #4d5e46;
   font-size: 24px;
 }
 .main-squares > p{
-  margin-top: 20px;
+  margin-top: 20px; /* Add space above the text */
   font-size: 25px;
   color: #4d5e46;
 }
 .squares > p{
   color: #4d5e46;
   font-size: 19px;
-  margin-top: 11px;
+  margin-top: 11px; /* Add space above the text */
 }
-
+/* Styling for the map information */
 .info-map-altogether {
-  display: flex;
+  display: flex; /* Make the container a flex container */
 }
-
+/* Styling for the map information with */
 .inf_map{
   position: sticky;
-  text-align: center;
+  text-align: center; /* Center text */
   font-size: 25px;
   color: #698667;
   font-weight: bold;
@@ -512,17 +518,16 @@ text-align: center;
 .arrow{
   width: 150px;
   height: 150px;
-  rotate: 90deg;
+  rotate: 90deg; /* Rotate the arrow by 90 degrees */
   margin-right: 174px;
-  margin-top: -95px;
-
+  margin-top: -95px; /* Add negative margin to move it up */
 }
 
 .line2{
   position: sticky;
   height: 2px;
   width: 30%;
-  background: linear-gradient(to left, #507053 0%, #94CA99 100%);
+  background: linear-gradient(to left, #507053 0%, #94CA99 100%); /* Add gradient background */
   -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
   right: 50%;
   left: 50%;
@@ -552,21 +557,21 @@ text-align: center;
 
 .card-lists {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
   justify-content: center;
 }
 
 .card-item {
   display: flex;
-  transition: box-shadow .3s;
+  transition: box-shadow .3s; /* Add a smooth transition effect for box-shadow changes */
   width: 450px;
-  height: auto;
+  height: auto; /* Automatically adjust the height */
 }
 
 .card-item:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  box-shadow: 0 0 11px rgba(33,33,33,.2); /* Add a shadow on hover */
 }
-
+/* Styling for the content inside card items */
 .card-item-content {
   display: flex;
   flex-direction: column;
@@ -575,45 +580,47 @@ text-align: center;
   box-shadow: 1px 1px 1px #000000;
   border-radius: 8px;
 }
-
+/* Styling for images inside card items */
 .card-item-content img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-
+/* Styling for non-image content inside card items */
 .card-item-content :not(img) {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+/* Styling for the last child of card-item-content */
 .card-item-content :last-child {
   padding-bottom: 1rem;
   text-align: center;
 }
+/* Styling for paragraphs inside card-item-content */
 .card-item-content p {
-  flex: 1 0 auto;
+  flex: 1 0 auto; /* Allow paragraphs to grow and shrink */
 }
 .news{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
   margin-left: 30px;
 }
 
 .archive{
   display: flex;
-
   transition: box-shadow .3s;
   width: 450px;
   height: auto;
 }
 
 .archive:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  box-shadow: 0 0 11px rgba(33,33,33,.2); /* Add a shadow on hover */
 }
- /*Slider Wrapper*/
+/* Styling for the slider wrapper */
 .slider-wrapper {
   position: relative;
 }
+/* Styling for slide buttons inside the slider wrapper */
 .slider-wrapper .slide-button {
   position: absolute;
   top: 50%;
@@ -632,19 +639,23 @@ text-align: center;
   border-radius: 50%;
   transform: translateY(-50%);
 }
+/* Styling for hover effect on slide buttons */
 .slider-wrapper .slide-button:hover {
   background: none;
 }
+/* Styling for the previous slide button */
 .slider-wrapper .slide-button#prev-slide {
   left: -25px;
-  display: none;
+  display: none; /* Initially hidden */
 }
+/* Styling for the next slide button */
 .slider-wrapper .slide-button#next-slide {
   right: -25px;
 }
+/* Styling for the image list inside the slider wrapper */
 .slider-wrapper .image-list {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  display: grid; 
+  grid-template-columns: repeat(10, 1fr); /* Create a grid with 10 equal columns */
   gap: 18px;
   font-size: 0;
   list-style: none;
@@ -652,9 +663,11 @@ text-align: center;
   overflow-x: auto;
   scrollbar-width: none;
 }
+/* Styling for the scrollbar in the image list */
 .slider-wrapper .image-list::-webkit-scrollbar {
   display: none;
 }
+/* Styling for the scrollbar in the image list */
 .slider-wrapper .image-list .image-item {
   width: 325px;
   height: 400px;
@@ -664,7 +677,7 @@ text-align: center;
   border-radius: 30px;
 }
 .container .slider-scrollbar {
-  height: 24px;
+  height: 24px; /* Set the height of the scrollbar container */
   width: 100%;
   display: flex;
   align-items: center;
@@ -679,7 +692,7 @@ text-align: center;
   position: relative;
 }
 .slider-scrollbar:hover .scrollbar-track {
-  height: 4px;
+  height: 4px; /* Increase the height on hover */
 }
 .slider-scrollbar .scrollbar-thumb {
   position: absolute;
@@ -693,11 +706,11 @@ text-align: center;
 }
 .slider-scrollbar .scrollbar-thumb:active {
   cursor: grabbing;
-  height: 8px;
-  top: -2px;
+  height: 8px; /* Increase the height on active state */
+  top: -2px; /* Adjust the vertical position on active state */
 }
 .slider-scrollbar .scrollbar-thumb::after {
-  content: "";
+  content: ""; /* Generate empty content */
   position: absolute;
   left: 0;
   right: 0;
@@ -715,15 +728,15 @@ text-align: center;
   text-align: center;
 }
 .button-60 {
-  background: transparent;
-  backface-visibility: hidden;
+  background: transparent; /* Set background to transparent */
+  backface-visibility: hidden; /* Hide backface during transitions */
   border-radius: .375rem;
   border-style: solid;
   border-width: .100rem;
   box-sizing: border-box;
   color: #212121;
   cursor: pointer;
-  display: inline-block;
+  display: inline-block; /* Display as inline-block */
   font-family: Circular,Helvetica,sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
@@ -733,15 +746,15 @@ text-align: center;
   position: relative;
   text-align: left;
   text-decoration: none;
-  transform: translateZ(0) scale(1);
+  transform: translateZ(0) scale(1); /* Enable hardware acceleration for smoother transitions */
   transition: transform .2s;
-  user-select: none;
+  user-select: none; /* Disable user selection */
   -webkit-user-select: none; /*Rendering content in Safari and Chrome browsers*/
   touch-action: manipulation;
 }
 
 .button-60:not(:disabled):hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Scale the button on hover */
 }
 
 .button-60:not(:disabled):hover:active {
@@ -749,40 +762,40 @@ text-align: center;
 }
 
 .button-60:focus {
-  outline: 0 solid transparent;
+  outline: 0 solid transparent; /* Remove outline */
 }
-
+/* Styling for the pseudo-element before focus of the button */
 .button-60:focus:before {
-  content: "";
+  content: ""; /* Generate empty content */
   left: calc(-1*.375rem);
   pointer-events: none;
   position: absolute;
   top: calc(-1*.375rem);
-  transition: border-radius;
+  transition: border-radius; /* Apply transition to border-radius */
   user-select: none;
 }
-
+/* Styling for the focus state of the button when not focus-visible */
 .button-60:focus:not(:focus-visible) {
   outline: 0 solid transparent;
 }
-
+/* Styling for the pseudo-element before focus when not focus-visible */
 .button-60:focus:not(:focus-visible):before {
   border-width: 0;
 }
-
+/* Styling for the active state of the button */
 .button-60:not(:disabled):active {
-  transform: translateY(.125rem);
+  transform: translateY(.125rem); /* Adjust position on active state */
 }
 
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
   .slider-wrapper .slide-button {
-    display: none !important;
+    display: none !important; /* Hide the slide button on mobile and tablets */
   }
   .slider-wrapper .image-list {
-    gap: 10px;
+    gap: 10px; /* Set the gap between image items */
     margin-bottom: 15px;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory; /* Enable mandatory horizontal snapping */
 
   }
 
@@ -796,25 +809,25 @@ text-align: center;
 }
 .animate-charcter
 {
-   text-transform: uppercase;
-  background-image: linear-gradient(
+   text-transform: uppercase; /* Convert text to uppercase */
+   background-image: linear-gradient(
     -225deg,
     #3A4D39 0%,
     #4F6F52 29%,
     #B1C3B0 67%,
     #F5EFE5 100%
-  );
+  ); /* Set background image as a linear gradient */
   text-transform: uppercase;
   background-image: linear-gradient( -225deg, #3A4D39 0%, #4F6F52 29%, #B1C3B0 67%, #F5EFE5 100% );
   background-size: auto auto;
-  background-clip: border-box;
+  background-clip: border-box; /* Apply background-clip to border-box */
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text; /*Rendering content in Safari and Chrome browsers*/
   -webkit-text-fill-color: transparent; /*Rendering content in Safari and Chrome browsers*/
-  animation: textclip 2s linear infinite;
+  animation: textclip 2s linear infinite; /* Apply textclip animation */
   display: inline-block;
   font-size: 129px;
   margin-top: 484px;
@@ -824,12 +837,13 @@ text-align: center;
   margin-right: 0;
   word-spacing: 94px;
 }
-
+/* Keyframe animation for textclip */
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
+/* Section for the "Meet the Team" display */
 .meet-the-team{
   display: flex;
 }
@@ -846,7 +860,7 @@ text-align: center;
     box-shadow: 0px 0px 14px -7px #649868;
     background-image: linear-gradient(45deg, #649868 0%, #5a815d 51%, #94ca99 100%);
     cursor: pointer;
-    -webkit-user-select: none; /*Rendering content in Safari and Chrome browsers*/
+    -webkit-user-select: none; /* Disable user selection in Safari and Chrome browsers */
     touch-action: manipulation;
     margin-top: 100px;
 }
@@ -855,8 +869,7 @@ a {
 }
 
 .button-87:hover {
-  background-position: right center;
-  /* change the direction of the change here */
+  background-position: right center; /* Change background position on hover */
   color:#F5EFE5;
   text-decoration: none;
 }
@@ -901,7 +914,7 @@ a {
 
 .before-footer >img{
   width: 1018px;
-    height: 648px;
+  height: 648px;
 }
 
 ul{
@@ -914,7 +927,7 @@ ul{
   padding-top: 24px;
   padding-bottom: 10px;
 }
-
+/* Styling for each column in the footer */
 .footer-col{
   width: 25%;
   padding: 0 15px;
@@ -943,13 +956,13 @@ ul{
 }
 
 .footer-col ul li:not(:last-child){
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Bottom margin for list items except the last one */
 }
 
 .footer-col ul li a{
   font-size: 16px;
   text-transform: capitalize;
-  text-decoration: none;
+  text-decoration: none; /* Remove default underline */
   font-weight: 300;
   color: rgba(79, 111, 82, 1);
   display: block;
@@ -957,10 +970,10 @@ ul{
 }
 
 .footer-col ul li a:hover{
-  color: rgb(50, 66, 52);
+  color: rgb(50, 66, 52); /* Text color on hover */
   padding-left: 8px;
 }
-
+/* Styling for the pass and email input fields */
 .pass{
   border-radius: 10px;
 }
@@ -969,7 +982,7 @@ ul{
   border-radius: 10px;
   width: 185px;
 }
-/*Buttons on the footer*/
+/* Styling for buttons in the footer */
 .footer-button{
   width: 80px;
   display: flex;
@@ -986,12 +999,15 @@ ul{
   margin-left: 170px;
   margin-top: 5px;
 }
+/* Hover state for footer buttons */
 .footer-button:hover{
-  background-color: rgb(73, 107, 78);
+  background-color: rgb(73, 107, 78); /* Background color on hover */
 }
+/* Copyright section styling */
 .copyright{
   margin-top: 85px;
 }
+/* Styling for the hamburger menu */
 .menu-hamburger {
   width: 270px;
   height: 500px;
@@ -1001,23 +1017,24 @@ ul{
   left: -400px;
   background: rgba( 255, 255, 255, 0.25 );
   box-shadow: 0 1px 15px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 4px ); /* Background blur effect */
+  -webkit-backdrop-filter: blur( 4px ); /* WebKit-specific background blur */
   border-radius: 10px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   text-align: center;
-  z-index: 100000;
+  z-index: 100000; /* Z-index for stacking order */
 }
+/* Styling for links inside the menu */
 .menu > li >a{
   font-size: 23px;
   color: #5a815d;
   font-family: Neucha, sans-serif;
 }
-
+/* Visible class for the hamburger menu */
 .menu-hamburger.visible {
-  left: 0
+  left: 0; /* Move menu to the visible position */
 }
 
 .input_wrapper{
@@ -1033,40 +1050,40 @@ ul{
   padding: 8px;
   padding-right: 32px;
   background: transparent;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s; /* Transition effect for border color */
 }
-
+/* Styling for the input field placeholder */
 .input_field::placeholder{
-  color: rgba(79, 111, 82, 1);
+  color: rgba(79, 111, 82, 1); /* Text color of the input field placeholder */
 }
-
+/* Styling for the input label when placeholder is shown */
 .input_field:placeholder-shown _ .input_label{
   font-size: 1rem;
   cursor: text;
   color: #F8F8FF;
   top: 24px;
 }
-
+/* Styling for the input label when focused */
 label.input_field:focus _ .input_label{
   position: absolute;
   top: 6px;
   padding: 0 4px;
-  background-color: #140E37;
+  background-color: #140E37; /* Background color when focused */
   display: block;
   font-size: 14px;
   left: 8px;
   color: #2222a1;
 }
-
+/* Styling for the input field when focused */
 .input_field:focus _ .input_label{
-  color: #FF9950;
+  color: #FF9950; /* Text color of the input label when focused */
 }
-
+/* Styling for the input field when focused */
 .input_field:focus{
   border: 1.5px solid #FF9950;
   outline:c1px solide #FF9950;
 }
-
+/* Styling for the input icon */
 .input_icon{
   position: absolute;
   right: -10px;
@@ -1079,11 +1096,11 @@ label.input_field:focus _ .input_label{
   transform-origin: center;
   cursor: pointer;
 }
-
+/* Styling for the input icon when focused */
 .input_field:focus _ .input_icon{
-  stroke: #FF9950;
+  stroke: #FF9950; /* Stroke color of the input icon when focused */
 }
-
+/* Styling for the signin form */
 .signin-form{
   margin: auto;
   position: relative;
@@ -1092,14 +1109,14 @@ label.input_field:focus _ .input_label{
   background: transparent;
   border: 2px solid rgba( 255, 255, 255, 0.5 );
   border-radius: 20px;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px); /* Background blur effect */
   box-shadow: 0 0 30px rgba(0,0,0,.5);
 }
-
+/* Styling for the form box within the signin form */
 .form-box-signin{
   margin-top: 70px;
 }
-
+/* Styling for the form box within the signin form */
 .signin-form .form-box-signin{
   width: 100%;
   padding: 40px;
@@ -1110,7 +1127,7 @@ label.input_field:focus _ .input_label{
   color: #252525;
   text-align: center;
 }
-
+/* Styling for the input box */
 .input-box{
   position: relative;
   width: 100%;
@@ -1118,7 +1135,7 @@ label.input_field:focus _ .input_label{
   border-bottom: 2px solid #252525;
   margin: 30px 0;
 }
-
+/* Styling for the label within the input box */
 .input-box label{
   position: absolute;
   top: 50%;
@@ -1127,20 +1144,20 @@ label.input_field:focus _ .input_label{
   font-size: 1em;
   color: #252525;
   font-weight: 500;
-  pointer-events: none;
+  pointer-events: none; /* Prevent interaction with the label */
   transition: 0.5s;
 }
-
+/* Styling for the label when the input is focused or has content */
 .input-box input:focus~label,
 .input-box input:valid~label{
-  top: -5px;
+  top: -5px; /* Adjust the top position when focused or has content */
 
 }
-
+/* Styling for the input field */
 .input-box input{
   width: 100%;
   height: 100%;
-  background: transparent;
+  background: transparent; /* Transparent background for the input field */
   border: none;
   outline: none;
   font-size: 1em;
@@ -1148,7 +1165,7 @@ label.input_field:focus _ .input_label{
   font-weight: 600;
   padding: 0 35px 0 5px;
 }
-
+/* Styling for the icon within the input box */
 .input-box .icon{
   position: absolute;
   right: 8px;
@@ -1156,24 +1173,23 @@ label.input_field:focus _ .input_label{
   color: #252525;
   line-height: 57px;
 }
-
-/*The text on the footer*/
+/* Styling for the text on the footer */
 .p-footer{
-  white-space: pre-line;
+  white-space: pre-line; /* Preserve white spaces and line breaks */
   text-align: center;
   margin-right: 10px;
 }
-
+/* Styling for the email text */
 .email-text{
   color: rgba(79, 111, 82, 1);
   font-size: 16px;
 }
-
+/* Styling for the password text */
 .pass-text{
   color: rgba(79, 111, 82, 1);
   font-size: 16px;
 }
-
+/* Styling for the username text */
 .username-text{
   color: rgba(79, 111, 82, 1);
   font-size: 16px;
@@ -1185,7 +1201,7 @@ label.input_field:focus _ .input_label{
   justify-content: center;
   align-items: center;
 }
-
+/* Styling for the individual social media icon */
 .socials a{
   text-decoration: none;
   padding: 10px;
@@ -1198,23 +1214,23 @@ label.input_field:focus _ .input_label{
   justify-content: center;
   align-items: center;
 }
-
+/* Styling for the icon within the social media icon */
 .socials a i{
   font-size: 2em;
   color: rgba(79, 111, 82, 1);
-  opacity: 0.9;
+  opacity: 0.9; /* Opacity of the icon */
 }
-
+/* Styling when hovering over a social media icon */
 .socials a:hover{
-  background-color: rgb(71, 95, 73);
+  background-color: rgb(71, 95, 73); /* Background color on hover */
   transition: 0.5s;
 }
-
+/* Styling when hovering over the icon within the social media icon */
 .socials a:hover i{
-  color: white;
+  color: white; /* Text color of the icon on hover */
   transition: 0.5s;
 }
-
+/* Styling for the curved background */
 .curved{
   position: absolute;
   top: 115.5px;
@@ -1232,10 +1248,9 @@ label.input_field:focus _ .input_label{
   width: calc(153% + 1.3px);
   height: 493px;
   transform: rotate(180deg);
-
   margin-bottom: 349px;
-  -webkit-transform: scaleX(-1);
-  transform: scaleY(-1);
+  -webkit-transform: scaleX(-1); /* Flip the SVG horizontally for WebKit browsers */
+  transform: scaleY(-1); /* Flip the SVG vertically */
 }
 
 .curved .shape-fill {
@@ -1267,14 +1282,14 @@ label.input_field:focus _ .input_label{
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 0;
+  margin: 0; /* Remove margin */
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
+  user-select: none; /* Disable user selection */
+  -webkit-user-select: none; /* Disable user selection for WebKit browsers */
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
@@ -1283,23 +1298,23 @@ label.input_field:focus _ .input_label{
 #send_File:hover,
 #send_File:focus {
   border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px; /* Apply box shadow on hover/focus */
+  color: rgba(0, 0, 0, 0.65); /* Change text color on hover/focus */
 }
 
 #send_File:hover {
-  transform: translateY(-1px);
+  transform: translateY(-1px); /* Move element up on hover */
 }
 
 #send_File:active {
-  background-color: #698667;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
+  background-color: #698667; /* Change background color on click */
+  border-color: rgba(0, 0, 0, 0.15); /* Change border color on click */
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px; /* Apply box shadow on click */
+  color: rgba(0, 0, 0, 0.65); /* Change text color on click */
+  transform: translateY(0); /* Reset transform on click */
 }
 #button_submit_image{
-    align-items: center;
+  align-items: center;
   background-color: #698667;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
@@ -1353,7 +1368,7 @@ label.input_field:focus _ .input_label{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 60px;
   width: 434px;
-    height: 425px;
+  height: 425px;
   margin-top: 30px;
   margin-bottom: 20px;
   justify-content: center;
@@ -1404,8 +1419,8 @@ label.input_field:focus _ .input_label{
 .heading_challenge-yourself{
   background: #557449;
   background: linear-gradient(to right, #557449 24%, #E3D9AA 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; /* Apply background clip to text */
+  -webkit-text-fill-color: transparent; /* Make text transparent */
   font-size: 100px;
   text-align: center;
 }
