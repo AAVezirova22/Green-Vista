@@ -399,8 +399,9 @@ button{
   width: 1315px;
   height: 970px;
   margin-top: 65px;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+.team_pic_centre{
+  text-align: center;
 }
 .pointers{
   display: flex;
@@ -515,7 +516,6 @@ text-align: center;
   rotate: 90deg;
   margin-right: 174px;
   margin-top: -95px;
-
 }
 
 .line2{
