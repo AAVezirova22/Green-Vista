@@ -1,4 +1,5 @@
-# Green-Vista
+
+# Green-Vista   ![logo](https://github.com/AAVezirova22/Green-Vista/assets/132449341/ea21ced1-2652-4f34-8dcf-4c754aba1ee9)
 
 ## 💻 About
 This is a website about pollution in different places around the Earth. There is also a short challenge to help the environment.
@@ -6,20 +7,21 @@ This is a website about pollution in different places around the Earth. There is
 ## 🗂️ Used technologies
 
 ### Used technologies about the visual elements, docs and the communication
-![Picture1](https://github.com/AAVezirova22/Green-Vista/assets/132449341/6bb78e4f-1a3f-4685-9820-14a141d02788)
-![Picture2](https://github.com/AAVezirova22/Green-Vista/assets/132449341/9b2b33d0-6667-423a-ab92-b815512fc960)
-![Picture3](https://github.com/AAVezirova22/Green-Vista/assets/132449341/dca88e61-7005-417e-892c-fdb8f4fdd4ce)
-![Picture4](https://github.com/AAVezirova22/Green-Vista/assets/132449341/f6fdac00-bd19-4b53-8b25-5da0d0b0cd92)
-![Picture5](https://github.com/AAVezirova22/Green-Vista/assets/132449341/1cdde124-f572-49f9-884b-fa50d725eec2)
-![Picture6](https://github.com/AAVezirova22/Green-Vista/assets/132449341/21093549-d6af-4f38-9ca3-64930b2cd5ac)
-![Picture7](https://github.com/AAVezirova22/Green-Vista/assets/132449341/cdb8f38b-df61-43a5-9fc5-0cbfa6ac36ee)
+![Picture1](https://github.com/AAVezirova22/Green-Vista/assets/132449341/a2317afc-a72e-4c79-9603-2602ed36a094)
+![Picture2](https://github.com/AAVezirova22/Green-Vista/assets/132449341/4606c839-8b71-40a8-9a08-841c54e743da)
+![Picture3](https://github.com/AAVezirova22/Green-Vista/assets/132449341/5ea2eeee-46ae-4cc2-a4a5-dc3b5ea47741)
+![Picture4](https://github.com/AAVezirova22/Green-Vista/assets/132449341/edfcc6f9-1903-40d3-bd54-625096e8aead)
+![Picture5](https://github.com/AAVezirova22/Green-Vista/assets/132449341/0dc6aa39-8895-4c59-8d76-563af43dca13)
+![Picture6](https://github.com/AAVezirova22/Green-Vista/assets/132449341/e02e9311-2961-4e4a-a293-0a6b8e8f2f71)
+![Picture7](https://github.com/AAVezirova22/Green-Vista/assets/132449341/b11f5cb5-a324-438d-841f-a25f499fc0dd)
 
 ### Used technologies for the site development
-![html](https://github.com/AAVezirova22/Green-Vista/assets/132449341/c094ce19-a015-4019-9c96-069b78b79cfe)
-![css](https://github.com/AAVezirova22/Green-Vista/assets/132449341/1502128f-033f-4236-b5cf-7d04e6ccd426)
-![js](https://github.com/AAVezirova22/Green-Vista/assets/132449341/0dc2a12a-c0ac-4444-8512-2b3a657f8e9d)
+![html](https://github.com/AAVezirova22/Green-Vista/assets/132449341/666a485b-3767-4a24-afdf-2aa22656e26a)
+![css](https://github.com/AAVezirova22/Green-Vista/assets/132449341/4c24f917-6555-4ac5-8906-d9eed0644997)
+![js](https://github.com/AAVezirova22/Green-Vista/assets/132449341/c46f8b17-908b-4d40-9056-5c65ace3523b)
 
-
+## Check out our design here!
+[Figma File](https://github.com/AAVezirova22)
 
 ## 📄 Documents
 
@@ -35,7 +37,7 @@ This is a website about pollution in different places around the Earth. There is
 ```git clone https://github.com/AAVezirova22/Green-Vista.git```
 ## 🧒 Our Team
 
-- [Ani Vezirova](https://github.com/AAVezirova22) (Scrum trainer)
-- [Nikol Stoyanova](https://github.com/NSStoyanova22) (Designer)
-- [Teodora Skulieva](https://github.com/TDSkulieva22) (Front end Developer)
-- [Kristiyana Hristova](https://github.com/KIHristova22) (Front end Developer)
+- [Ani Vezirova](https://github.com/AAVezirova22) (Scrum trainer) 🟦9G
+- [Nikol Stoyanova](https://github.com/NSStoyanova22) (Designer) 🟦9G
+- [Teodora Skulieva](https://github.com/TDSkulieva22) (Front end Developer) 🟩9V
+- [Kristiyana Hristova](https://github.com/KIHristova22) (Front end Developer) 🟩9V
