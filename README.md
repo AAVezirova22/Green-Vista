@@ -1,5 +1,4 @@
-
-# Green-Vista   ![logo](https://github.com/AAVezirova22/Green-Vista/assets/132449341/ea21ced1-2652-4f34-8dcf-4c754aba1ee9)
+![name](https://github.com/AAVezirova22/Green-Vista/assets/132449341/54739211-7813-45be-a038-39d6269f8908)
 
 ## 💻 About
 This is a website about pollution in different places around the Earth. There is also a short challenge to help the environment.
@@ -37,7 +36,11 @@ This is a website about pollution in different places around the Earth. There is
 ```git clone https://github.com/AAVezirova22/Green-Vista.git```
 ## 🧒 Our Team
 
-- [Ani Vezirova](https://github.com/AAVezirova22) (Scrum trainer) 🟦9G
-- [Nikol Stoyanova](https://github.com/NSStoyanova22) (Designer) 🟦9G
-- [Teodora Skulieva](https://github.com/TDSkulieva22) (Front end Developer) 🟩9V
-- [Kristiyana Hristova](https://github.com/KIHristova22) (Front end Developer) 🟩9V
+| Name                                                   | Role                | Class |
+|--------------------------------------------------------|---------------------|-------|
+| [Ani Vezirova](https://github.com/AAVezirova22)        | Scrum trainer       | 🟦9G   |
+| [Nikol Stoyanova](https://github.com/NSStoyanova22)    | Designer            | 🟦9G   |
+| [Teodora Skulieva](https://github.com/TDSkulieva22)    | Front end Developer | 🟩9V   |
+| [Kristiyana Hristova](https://github.com/KIHristova22) | Front end Developer | 🟩9V   |
+
+## Since you came all the way down here, why don't you give us a ⭐ :)
