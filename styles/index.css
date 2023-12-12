@@ -267,6 +267,11 @@ button{
   width: 100%;
   display: flex;
 }
+.page-SignInSignUp{
+  width: 100%;
+  display: flex;
+  background-image: url(../images/signUpAndSignInFormBackground.png);
+}
 
 .sign > h3{
   display: flex;
