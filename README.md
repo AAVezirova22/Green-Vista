@@ -20,7 +20,7 @@ This is a website about pollution in different places around the Earth. There is
 ![js](https://github.com/AAVezirova22/Green-Vista/assets/132449341/c46f8b17-908b-4d40-9056-5c65ace3523b)
 
 ## Check out our design here!
-[Figma File](https://github.com/AAVezirova22)
+[Figma File]([https://github.com/AAVezirova22](https://www.figma.com/file/RYzzHlG28wkyjiMHXnOTUy/project?type=design&node-id=0-1&mode=design))
 
 ## 📄 Documents
 
