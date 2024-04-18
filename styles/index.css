@@ -1255,7 +1255,7 @@ label.input_field:focus _ .input_label{
 /* Styling for the curved background */
 .curved{
   position: absolute;
-  top: 130.5px;
+  top: 145.5px;
   left: 0;
   width: 100%;
   overflow: hidden;
